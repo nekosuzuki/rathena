@@ -862,6 +862,9 @@ struct item_data
 	unsigned char combos_count;
 	short delay_sc; ///< Use delay group if any instead using player's item_delay data [Cydh]
 	uint8 refine_type; /// pre-defined refine type, depreciate wlv for refine_info[] lookup. REFINE_TYPE_MAX for not IT_WEAPON, IT_ARMOR, or IT_SHADOWGEAR
+
+	bool isStackable();
+	int inventorySlotNeeded(int quantity);
 };
 
 // Struct for item random option [Secret]
