@@ -15428,7 +15428,7 @@ static bool status_yaml_readdb_refine_sub(const YAML::Node &node, enum refine_ty
 				}
 
 				std::string chance_type = chance["Type"].as<std::string>();
-				int chance_idx = 0;
+				int64 chance_idx = 0;
 				if (!script_get_constant(chance_type.c_str(), &chance_idx)) {
 					ShowWarning("status_yaml_readdb_refine_sub: Invalid Chance Type " CL_WHITE "%s" CL_RESET "in file" CL_WHITE "%s" CL_RESET ".\n", chance_type.c_str(), file_name.c_str());
 					continue;

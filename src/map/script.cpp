@@ -24575,12 +24575,12 @@ BUILDIN_FUNC(getblacksmithblessing) {
 
 	if (data && data_isreference(data)) {
 		name = reference_getname(data);
-		setd_sub(st, NULL, name, 0, (void *)__64BPRTSIZE((int)bb.nameid), data->ref);
-		setd_sub(st, NULL, name, 1, (void *)__64BPRTSIZE((int)bb.count), data->ref);
+		setd_sub_num(st, NULL, name, 0, bb.nameid, data->ref);
+		setd_sub_num(st, NULL, name, 1, bb.count, data->ref);
 	}
 	else {
-		setd_sub(st, NULL, ".@refinebb", 0, (void *)__64BPRTSIZE((int)bb.nameid), NULL);
-		setd_sub(st, NULL, ".@refinebb", 1, (void *)__64BPRTSIZE((int)bb.count), NULL);
+		setd_sub_num(st, NULL, ".@refinebb", 0, bb.nameid, NULL);
+		setd_sub_num(st, NULL, ".@refinebb", 1, bb.count, NULL);
 	}
 	script_pushint(st, (bb.nameid) ? 1 : 0);
 	return SCRIPT_CMD_SUCCESS;
