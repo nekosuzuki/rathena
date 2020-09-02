@@ -1,0 +1,2 @@
+D:\START\Start - Template\rathena\.vs\build\common-minicore\Win32\Debug\common-minicore.pdb
+D:\START\Start - Template\rathena\.vs\build\common-minicore.pdb

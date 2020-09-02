@@ -1,0 +1,2 @@
+D:\START\Start - Template\rathena\.vs\build\libconfig\Win32\Debug\libconfig.pdb
+D:\START\Start - Template\rathena\.vs\build\libconfig.pdb

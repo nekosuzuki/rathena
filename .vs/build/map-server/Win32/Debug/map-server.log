@@ -1,0 +1,63 @@
+﻿  achievement.cpp
+  atcommand.cpp
+  battle.cpp
+  battleground.cpp
+  buyingstore.cpp
+  cashshop.cpp
+D:\START\Start - Template\rathena\src\map\atcommand.cpp(6126,20): error C2039: 'at_logout_event': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+  channel.cpp
+  chat.cpp
+  chrif.cpp
+  clan.cpp
+  clif.cpp
+  date.cpp
+  duel.cpp
+  elemental.cpp
+  guild.cpp
+  homunculus.cpp
+D:\START\Start - Template\rathena\src\map\clif.cpp(11168,21): error C2039: 'drop_connection_on_quit': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+  instance.cpp
+  intif.cpp
+  itemdb.cpp
+D:\START\Start - Template\rathena\src\map\homunculus.cpp(910,36): error C2039: 'homunculus_starving_rate': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\homunculus.cpp(910,107): error C2039: 'homunculus_starving_rate': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\homunculus.cpp(910,149): error C2039: 'homunculus_starving_delay': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\homunculus.cpp(1064,37): error C2039: 'homunculus_starving_rate': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\homunculus.cpp(1064,108): error C2039: 'homunculus_starving_rate': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\homunculus.cpp(1064,150): error C2039: 'homunculus_starving_delay': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+  log.cpp
+  mail.cpp
+  map.cpp
+  mapreg.cpp
+  mercenary.cpp
+  mob.cpp
+  npc.cpp
+  npc_chat.cpp
+  party.cpp
+  path.cpp
+D:\START\Start - Template\rathena\src\map\mob.cpp(1445,21): error C2039: 'slave_stick_with_master': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\mob.cpp(3019,23): error C2039: 'achievement_mob_share': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+  pc.cpp
+  pc_groups.cpp
+  pet.cpp
+  quest.cpp
+  script.cpp
+  searchstore.cpp
+  skill.cpp
+  status.cpp
+  storage.cpp
+  trade.cpp
+  unit.cpp
+D:\START\Start - Template\rathena\src\map\unit.cpp(1332,21): error C2039: 'slave_stick_with_master': is not a member of 'Battle_Config'
+D:\START\Start - Template\rathena\src\map\battle.hpp(691): message : see declaration of 'Battle_Config'
+  vending.cpp

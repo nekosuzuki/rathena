@@ -1,0 +1,2 @@
+D:\START\Start - Template\rathena\.vs\build\common\Win32\Debug\common.pdb
+D:\START\Start - Template\rathena\.vs\build\common.pdb

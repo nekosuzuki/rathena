@@ -1,0 +1,2 @@
+D:\START\Start - Template\rathena\.vs\build\yaml-cpp\Win32\Debug\yaml-cpp.pdb
+D:\START\Start - Template\rathena\.vs\build\yaml-cpp.pdb
