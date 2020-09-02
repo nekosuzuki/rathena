@@ -683,12 +683,7 @@ struct Battle_Config
 	int ping_timer_interval;
 	int ping_time;
 	int show_skill_scale;
-	int achievement_mob_share;
-	int slave_stick_with_master;
-	int at_logout_event;
-	int homunculus_starving_rate;
-	int homunculus_starving_delay;
-	int drop_connection_on_quit;
+	int feature_refineui;
 
 #include "../custom/battle_config_struct.inc"
 };
