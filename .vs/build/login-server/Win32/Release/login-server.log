@@ -1,0 +1,12 @@
+﻿  account.cpp
+  ipban.cpp
+  login.cpp
+  loginchrif.cpp
+  loginclif.cpp
+  logincnslif.cpp
+  loginlog.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 733 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  login-server.vcxproj -> D:\START\Start - Template\rathena\login-server.exe

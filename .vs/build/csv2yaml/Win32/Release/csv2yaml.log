@@ -1,0 +1,6 @@
+﻿  csv2yaml.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4199 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  csv2yaml.vcxproj -> D:\START\Start - Template\rathena\csv2yaml.exe

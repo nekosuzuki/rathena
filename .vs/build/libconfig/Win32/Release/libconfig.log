@@ -1,0 +1,6 @@
+﻿  grammar.c
+  libconfig.c
+  scanctx.c
+  scanner.c
+  strbuf.c
+  libconfig.vcxproj -> D:\START\Start - Template\rathena\.vs\build\libconfig.lib
