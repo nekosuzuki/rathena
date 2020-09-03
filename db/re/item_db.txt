@@ -13876,6 +13876,10 @@
 
 
 
+// Kashuay's Box
+8800001,Eternal_Winter_Scroll, Eternal Winter Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eternal_Winter_Scroll); },{},{}
+
+
 
 
 
