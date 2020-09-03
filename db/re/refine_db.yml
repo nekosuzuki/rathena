@@ -42,7 +42,7 @@ Armor:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 2000
-      Material: 7619
+      Material: 6291
     - Type: REFINE_COST_OVER10_HD
       Price: 100000
       Material: 6225
@@ -52,7 +52,7 @@ Armor:
         DownRefineNum: 1
     - Type: REFINE_COST_HOLINK
       Price: 15000
-      Material: 7619
+      Material: 6291
       RefineUI: false
     - Type: REFINE_COST_WAGJAK
       Price: 20000
@@ -76,7 +76,7 @@ Armor:
         DownRefineNum: 1
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 2000
-      Material: 7619
+      Material: 6291
       RefineUI: false
   Rates:
     - Level: 1
@@ -310,7 +310,7 @@ Costume:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 2000
-      Material: 7619
+      Material: 6291
     - Type: REFINE_COST_OVER10_HD
       Price: 100000
       Material: 6225
@@ -320,7 +320,7 @@ Costume:
         DownRefineNum: 1
     - Type: REFINE_COST_HOLINK
       Price: 15000
-      Material: 7619
+      Material: 6291
       RefineUI: false
     - Type: REFINE_COST_WAGJAK
       Price: 20000
@@ -344,7 +344,7 @@ Costume:
         DownRefineNum: 1
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 2000
-      Material: 7619
+      Material: 6291
       RefineUI: false
   Rates:
     - Level: 1
@@ -578,7 +578,7 @@ WeaponLv1:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
     - Type: REFINE_COST_OVER10_HD
       Price: 100000
       Material: 6226
@@ -588,7 +588,7 @@ WeaponLv1:
         DownRefineNum: 1
     - Type: REFINE_COST_HOLINK
       Price: 500
-      Material: 7620
+      Material: 6292
       RefineUI: false
     - Type: REFINE_COST_WAGJAK
       Price: 1000
@@ -612,7 +612,7 @@ WeaponLv1:
         DownRefineNum: 1
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
       RefineUI: false
   Rates:
     - Level: 1
@@ -839,7 +839,7 @@ WeaponLv2:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
     - Type: REFINE_COST_OVER10_HD
       Price: 100000
       Material: 6226
@@ -849,7 +849,7 @@ WeaponLv2:
         DownRefineNum: 1
     - Type: REFINE_COST_HOLINK
       Price: 2000
-      Material: 7620
+      Material: 6292
       RefineUI: false
     - Type: REFINE_COST_WAGJAK
       Price: 2000
@@ -873,7 +873,7 @@ WeaponLv2:
         DownRefineNum: 1
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
       RefineUI: false
   Rates:
     - Level: 1
@@ -1100,7 +1100,7 @@ WeaponLv3:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
     - Type: REFINE_COST_OVER10_HD
       Price: 100000
       Material: 6226
@@ -1110,7 +1110,7 @@ WeaponLv3:
         DownRefineNum: 1
     - Type: REFINE_COST_HOLINK
       Price: 20000
-      Material: 7620
+      Material: 6292
       RefineUI: false
     - Type: REFINE_COST_WAGJAK
       Price: 10000
@@ -1134,7 +1134,7 @@ WeaponLv3:
         DownRefineNum: 1
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
       RefineUI: false
   Rates:
     - Level: 1
@@ -1361,7 +1361,7 @@ WeaponLv4:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
     - Type: REFINE_COST_OVER10_HD
       Price: 100000
       Material: 6226
@@ -1371,7 +1371,7 @@ WeaponLv4:
         DownRefineNum: 1
     - Type: REFINE_COST_HOLINK
       Price: 50000
-      Material: 7620
+      Material: 6292
       RefineUI: false
     - Type: REFINE_COST_WAGJAK
       Price: 20000
@@ -1395,7 +1395,7 @@ WeaponLv4:
         DownRefineNum: 1
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
       RefineUI: false
   Rates:
     - Level: 1
@@ -1617,12 +1617,12 @@ Shadow:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 20000
-      Material: 7619
+      Material: 6291
       RefineUI: true
     # 'Event' rates
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 20000
-      Material: 7619
+      Material: 6291
       RefineUI: false
   Rates:
     - Level: 1
@@ -1742,11 +1742,11 @@ ShadowWeapon:
         DownRefineNum: 1
     - Type: REFINE_COST_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
     # 'Event' rates
     - Type: REFINE_COST_EVT_ENRICHED
       Price: 2000
-      Material: 7620
+      Material: 6292
       RefineUI: false
   Rates:
     - Level: 1
