@@ -223,6 +223,9 @@ Armor:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 16
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 14
       Chances:
       - Type: REFINE_COST_OVER10
@@ -232,6 +235,9 @@ Armor:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 16
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 15
       Chances:
       - Type: REFINE_COST_OVER10
@@ -241,6 +247,9 @@ Armor:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 16
       Chances:
       - Type: REFINE_COST_OVER10
@@ -250,6 +259,9 @@ Armor:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 17
       Chances:
       - Type: REFINE_COST_OVER10
@@ -259,6 +271,9 @@ Armor:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 14
       Bonus: 500
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 18
       Chances:
       - Type: REFINE_COST_OVER10
@@ -268,6 +283,9 @@ Armor:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 14
       Bonus: 500
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 19
       Chances:
       - Type: REFINE_COST_OVER10
@@ -277,6 +295,9 @@ Armor:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 10
       Bonus: 500
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 20
       Chances:
       - Type: REFINE_COST_OVER10
@@ -491,6 +512,9 @@ Costume:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 16
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 14
       Chances:
       - Type: REFINE_COST_OVER10
@@ -500,6 +524,9 @@ Costume:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 16
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 15
       Chances:
       - Type: REFINE_COST_OVER10
@@ -509,6 +536,9 @@ Costume:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 16
       Chances:
       - Type: REFINE_COST_OVER10
@@ -518,6 +548,9 @@ Costume:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 400
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 17
       Chances:
       - Type: REFINE_COST_OVER10
@@ -527,6 +560,9 @@ Costume:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 14
       Bonus: 500
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 18
       Chances:
       - Type: REFINE_COST_OVER10
@@ -536,6 +572,9 @@ Costume:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 14
       Bonus: 500
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 19
       Chances:
       - Type: REFINE_COST_OVER10
@@ -545,6 +584,9 @@ Costume:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 10
       Bonus: 500
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 20
       Chances:
       - Type: REFINE_COST_OVER10
@@ -754,6 +796,9 @@ WeaponLv1:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 35
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 14
       Chances:
       - Type: REFINE_COST_OVER10
@@ -762,6 +807,9 @@ WeaponLv1:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 35
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 15
       Chances:
       - Type: REFINE_COST_OVER10
@@ -770,6 +818,9 @@ WeaponLv1:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 30
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 16
       Chances:
       - Type: REFINE_COST_OVER10
@@ -779,6 +830,9 @@ WeaponLv1:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 30
       Bonus: 300
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 17
       Chances:
       - Type: REFINE_COST_OVER10
@@ -788,6 +842,9 @@ WeaponLv1:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 20
       Bonus: 300
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 18
       Chances:
       - Type: REFINE_COST_OVER10
@@ -797,6 +854,9 @@ WeaponLv1:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 20
       Bonus: 300
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 19
       Chances:
       - Type: REFINE_COST_OVER10
@@ -806,6 +866,9 @@ WeaponLv1:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 300
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 20
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1015,6 +1078,9 @@ WeaponLv2:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 35
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 14
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1023,6 +1089,9 @@ WeaponLv2:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 35
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 15
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1031,6 +1100,9 @@ WeaponLv2:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 30
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 16
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1040,6 +1112,9 @@ WeaponLv2:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 30
       Bonus: 600
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 17
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1049,6 +1124,9 @@ WeaponLv2:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 20
       Bonus: 600
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 18
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1058,6 +1136,9 @@ WeaponLv2:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 20
       Bonus: 600
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 19
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1067,6 +1148,9 @@ WeaponLv2:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 600
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 20
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1276,6 +1360,9 @@ WeaponLv3:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 35
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 14
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1284,6 +1371,9 @@ WeaponLv3:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 35
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 15
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1292,6 +1382,9 @@ WeaponLv3:
         Rate: 18
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 30
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 16
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1301,6 +1394,9 @@ WeaponLv3:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 30
       Bonus: 900
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 17
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1310,6 +1406,9 @@ WeaponLv3:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 20
       Bonus: 900
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 18
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1319,6 +1418,9 @@ WeaponLv3:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 20
       Bonus: 900
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 19
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1328,6 +1430,9 @@ WeaponLv3:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 900
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 20
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1537,6 +1642,9 @@ WeaponLv4:
         Rate: 8
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 16
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 14
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1545,6 +1653,9 @@ WeaponLv4:
         Rate: 8
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 16
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 15
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1553,6 +1664,9 @@ WeaponLv4:
         Rate: 7
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 16
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1562,6 +1676,9 @@ WeaponLv4:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 15
       Bonus: 1200
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 17
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1571,6 +1688,9 @@ WeaponLv4:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 14
       Bonus: 1200
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 18
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1580,6 +1700,9 @@ WeaponLv4:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 14
       Bonus: 1200
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 19
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1589,6 +1712,9 @@ WeaponLv4:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 10
       Bonus: 1200
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
     - Level: 20
       Chances:
       - Type: REFINE_COST_OVER10
@@ -1598,6 +1724,9 @@ WeaponLv4:
       - Type: REFINE_COST_EVT_OVER10_HD
         Rate: 10
       Bonus: 1200
+	BlacksmithBlessing:
+        ItemID: 6635
+        Count: 11
 Shadow:
   StatsPerLevel: 0
   RandomBonusStartLevel: 0
