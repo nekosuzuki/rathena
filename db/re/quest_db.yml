@@ -9892,3 +9892,29 @@ Body:
   - Id: 62238
     Title: Midgardian Mercenary timer
     TimeLimit: +1h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## IRO Board Quests ##
+  - Id: 62565
+    Title: Bounty Hunting Spore!
+    Targets:
+      - Mob: SPORE
+        Count: 150
+  - Id: 62566
+    Title: Bounty Hunting Snake!
+    Targets:
+      - Mob: SNAKE
+        Count: 150
+
