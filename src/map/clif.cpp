@@ -21467,6 +21467,97 @@ void clif_parse_equipswitch_request_single( int fd, struct map_session_data* sd 
 #endif
 }
 
+void clif_parse_StartUseSkillToId( int fd, struct map_session_data* sd ){
+#if PACKETVER_MAIN_NUM >= 20181002 || PACKETVER_RE_NUM >= 20181002 || PACKETVER_ZERO_NUM >= 20181010
+	const struct PACKET_CZ_START_USE_SKILL *p = (struct PACKET_CZ_START_USE_SKILL *)RFIFOP( fd, 0 );
+
+	// Only rolling cutter is supported for now
+	if( p->skillId != GC_ROLLINGCUTTER ){
+		return;
+	}
+
+	// Already running - cant happen on officials, since only one skill is supported
+	if( sd->skill_keep_using.skill_id != 0 ){
+		return;
+	}
+
+	sd->skill_keep_using.tid = INVALID_TIMER;
+	sd->skill_keep_using.skill_id = p->skillId;
+	sd->skill_keep_using.level = p->skillLv;
+	sd->skill_keep_using.target = p->targetId;
+
+	clif_parse_skill_toid( sd, sd->skill_keep_using.skill_id, sd->skill_keep_using.level, sd->skill_keep_using.target );
+#endif
+}
+
+void clif_parse_StopUseSkillToId( int fd, struct map_session_data* sd ){
+#if PACKETVER_MAIN_NUM >= 20181002 || PACKETVER_RE_NUM >= 20181002 || PACKETVER_ZERO_NUM >= 20181010
+	const struct PACKET_CZ_STOP_USE_SKILL *p = (struct PACKET_CZ_STOP_USE_SKILL *)RFIFOP( fd, 0 );
+
+	// Not running
+	if( sd->skill_keep_using.skill_id == 0 ){
+		return;
+	}
+
+#if 0
+	// Hack
+	if( p->skillId != sd->skill_keep_using.skill_id ){
+		return;
+	}
+#endif
+
+	if( sd->skill_keep_using.tid != INVALID_TIMER ){
+		delete_timer( sd->skill_keep_using.tid, skill_keep_using );
+		sd->skill_keep_using.tid = INVALID_TIMER;
+	}
+	sd->skill_keep_using.skill_id = 0;
+	sd->skill_keep_using.level = 0;
+	sd->skill_keep_using.target = 0;
+#endif
+}
+
+void clif_ping( struct map_session_data* sd ){
+#if PACKETVER_MAIN_NUM >= 20190213 || PACKETVER_RE_NUM >= 20190213 || PACKETVER_ZERO_NUM >= 20190130
+	nullpo_retv( sd );
+
+	int fd = sd->fd;
+
+	if( !session_isActive( fd ) ){
+		return;
+	}
+
+	struct PACKET_ZC_PING p;
+
+	p.packetType = HEADER_ZC_PING;
+
+	clif_send( &p, sizeof( p ), &sd->bl, SELF );
+#endif
+}
+
+int clif_ping_timer_sub( struct map_session_data *sd, va_list ap ){
+	nullpo_ret( sd );
+
+	int fd = sd->fd;
+
+	if( !session_isActive( fd ) ){
+		return 0;
+	}
+
+	t_tick tick = va_arg( ap, t_tick );
+
+	if( session[fd]->wdata_tick + battle_config.ping_time < tick ){
+		clif_ping( sd );
+	}
+
+	return 0;
+}
+
+TIMER_FUNC( clif_ping_timer ){
+	map_foreachpc( clif_ping_timer_sub, gettick() );
+
+	return 0;
+}
+
 /**
  * Opens the refine UI on the designated client.
  * 0aa0
@@ -21584,9 +21675,8 @@ void clif_refineui_info( struct map_session_data* sd, uint16 index ){
 	int fd = sd->fd;
 	struct item *item;
 	struct item_data *id;
-	uint16 length;
 	struct refine_materials materials[REFINEUI_MAT_CNT];
-	uint8 i, material_count;
+	uint8 material_count;
 
 	// Get the item db reference
 	id = sd->inventory_data[index];
@@ -21637,21 +21727,24 @@ void clif_refineui_info( struct map_session_data* sd, uint16 index ){
 		return;
 	}
 
-	length = 7 + material_count * 7;
+	uint16 length = sizeof( struct PACKET_ZC_REFINE_ADD_ITEM ) + material_count * sizeof( struct PACKET_ZC_REFINE_ADD_ITEM_SUB );
 
-	WFIFOHEAD(fd,length);
-	WFIFOW(fd,0) = 0x0AA2;
-	WFIFOW(fd,2) = length;
-	WFIFOW(fd,4) = index + 2;
-	WFIFOB(fd,6) = (uint8)materials[REFINEUI_MAT_BS_BLESS].bs_bless.count;
+	WFIFOHEAD( fd, length );
 
-	for( i = 0; i < material_count; i++ ){
-		WFIFOW(fd,7 + i * 7) = materials[i].cost.nameid;
-		WFIFOB(fd,7 + i * 7 + 2) = materials[i].chance;
-		WFIFOL(fd,7 + i * 7 + 3) = materials[i].cost.zeny;
+	struct PACKET_ZC_REFINE_ADD_ITEM* p = (struct PACKET_ZC_REFINE_ADD_ITEM*)WFIFOP( fd, 0 );
+
+	p->packetType = HEADER_ZC_REFINE_ADD_ITEM;
+	p->packtLength = length;
+	p->itemIndex = client_index( index );
+	p->blacksmithBlessing = (uint8)materials[REFINEUI_MAT_BS_BLESS].bs_bless.count;
+
+	for( uint8 i = 0; i < material_count; i++ ){
+		p->req[i].itemId = client_nameid( materials[i].cost.nameid );
+		p->req[i].chance = materials[i].chance;
+		p->req[i].zeny = materials[i].cost.zeny;
 	}
 
-	WFIFOSET(fd,length);
+	WFIFOSET( fd, p->packtLength );
 }
 
 /**
@@ -21660,7 +21753,7 @@ void clif_refineui_info( struct map_session_data* sd, uint16 index ){
  */
 void clif_parse_refineui_add( int fd, struct map_session_data* sd ){
 #if PACKETVER >= 20161012
-	uint16 index = RFIFOW(fd, 2) - 2;
+	uint16 index = server_index( RFIFOW( fd, 2 ) );
 
 	// Check if the refine UI is open
 	if( !sd->state.refineui_open ){
@@ -21668,7 +21761,7 @@ void clif_parse_refineui_add( int fd, struct map_session_data* sd ){
 	}
 
 	// Check if the index is valid
-	if( index < 0 || index >= MAX_INVENTORY ){
+	if( index >= MAX_INVENTORY ){
 		return;
 	}
 
@@ -21683,9 +21776,11 @@ void clif_parse_refineui_add( int fd, struct map_session_data* sd ){
  */
 void clif_parse_refineui_refine( int fd, struct map_session_data* sd ){
 #if PACKETVER >= 20161012
-	uint16 index = RFIFOW( fd, 2 ) - 2;
-	uint16 material = RFIFOW( fd, 4 );
-	bool use_blacksmith_blessing = RFIFOB( fd, 6 ) != 0;
+	struct PACKET_CZ_REFINE_ITEM_REQUEST* p = (struct PACKET_CZ_REFINE_ITEM_REQUEST*)RFIFOP( fd, 0 );
+
+	uint16 index = server_index( p->index );
+	uint16 material = p->itemId;
+	bool use_blacksmith_blessing = p->blacksmithBlessing != 0;
 	struct refine_materials materials[REFINEUI_MAT_CNT];
 	uint8 i, material_count;
 	uint16 j;
@@ -21698,7 +21793,7 @@ void clif_parse_refineui_refine( int fd, struct map_session_data* sd ){
 	}
 
 	// Check if the index is valid
-	if( index < 0 || index >= MAX_INVENTORY ){
+	if( index >= MAX_INVENTORY ){
 		return;
 	}
 
