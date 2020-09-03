@@ -9760,7 +9760,7 @@
 18552,Proba_Angel_Blessing,Proba Angel Blessing,4,20,,1200,,0,,1,0xFFFFFFFF,63,2,256,,10,1,444,{ bonus bLuk,2; },{},{}
 18553,Mini_Tree,Mini Tree,4,20,,50,,5,,0,0xFFFFFFFF,63,2,256,,0,1,727,{ bonus2 bResEff,Eff_Stun,20; bonus2 bResEff,Eff_Curse,20; bonus2 bResEff,Eff_Blind,20; bonus2 bResEff,Eff_Confusion,20; bonus2 bAddMonsterDropItem,529,300; bonus2 bAddMonsterDropItem,529,644; },{},{}
 18554,King_Prawn_Hat,King Prawn Hat,4,20,,1000,,8,,0,0xFFFFFFFF,63,2,256,,0,0,728,{ bonus2 bAddItemGroupHealRate,IG_Fish,100; },{},{}
-18555,General_Helmet,General Helmet,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,10,1,729,{ bonus bMdef,3; bonus2 bAddRace,RC_Dragon,5; bonus2 bMagicAddRace,RC_Dragon,5; bonus2 bSubRace,RC_Dragon,5; bonus3 bAddMonsterDropItem,7444,RC_Dragon,2; },{},{}
+18555,General_Helmet,General Helm,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,10,1,729,{ .@r = getrefine();  bonus bBaseAtk,15*.@r; if (.@r>=7) {bonus bDelayrate,-10;} if (.@r>=9){ bonus2 bAddClass,Class_All,5; bonus bAspd,1; } if (.@r>=11){ bonus bCriticalRate,15; } if(.@r>=11){ bonus bFixedCast,-((.@r-10)*100);}},{},{}
 18556,Angel_Helmet,Angel Helmet,4,0,,0,,0,,0,0xFFFFFFFF,63,2,512,,0,0,3,{ bonus3 bAddMonsterIdDropItem,6464,2220,310; },{},{}
 18557,Devil_Helmet,Devil Helmet,4,0,,0,,0,,0,0xFFFFFFFF,63,2,512,,0,0,12,{ bonus3 bAddMonsterIdDropItem,6345,1812,310; },{},{}
 18558,Sinsuncho_Hat,Sinsuncho Hat,4,20,,1000,,0,,0,0xFFFFFFFF,63,2,256,,10,0,730,{ bonus2 bExpAddRace,RC_Plant,5; bonus2 bSubRace,RC_Plant,-10; },{},{}
@@ -13858,4 +13858,25 @@
 1100003,Concentrated_R_P,Concentrated Red Potion,0,10,,2,,,,,0xFFFFFFFF,63,2,,,120,,,{ itemheal rand(655,675),0; },{},{}
 1100004,Concentrated_B_P,Concentrated Blue Potion,0,10,,2,,,,,0xFFFFFFFF,63,2,,,120,,,{ itemheal 0,rand(340,360); },{},{}
 1100005,Concentrated_G_P,Concentrated Gold Potion,0,10,,2,,,,,0xFFFFFFFF,63,2,,,180,,,{ itemheal rand(2730,2750),0; },{},{}
+
+
+
+
+
+
+
+
+
+
+
+
+// IRO Consumables
+7700001,태국향수CAST,Toey's Miracle Elixr,2,20,,1,,,,,0xFFFFFFFF,63,2,,,,,,{specialeffect2 EF_POTION_BERSERK; sc_start SC_SPEEDUP1,600000,40; itemheal 100,0; sc_start SC_STRFood,3600000,10; sc_start SC_AGIFood,3600000,10; sc_start SC_VITFood,3600000,10; sc_start SC_INTFood,3600000,10; sc_start SC_DEXFood,3600000,10; sc_start SC_LUKFood,3600000,10; sc_start SC_ATKPOTION,3600000,20; sc_start SC_MATKPOTION,3600000,20;},{},{}
+
+
+
+
+
+
+
 
