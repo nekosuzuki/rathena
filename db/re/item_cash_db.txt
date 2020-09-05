@@ -18,5 +18,80 @@
 // Price:
 //    Item cost, in cash points (#CASHPOINTS).
 
-
+0,7700001,5
 0,8800001,400
+0,17104,500
+0,6290,75
+
+
+
+
+
+
+
+
+
+
+
+
+4,16711,150 // magic eyes box
+4,12952,250 // steel flower box
+//4,13658,150 // Apple Of Archer
+//4,13662,250 // Elven Ears
+4,13937,500 // Robo Eyes
+4,14127,150 // Bunny Band
+4,5286,150 // Pecopeco Hairband
+4,13869,500 // Chick Hat
+4,14099,150 // Red Glasses
+4,16975,150 // Singing Bird
+
+
+
+
+
+5,12202,5	//Str_Dish
+5,12203,5	//Agi_Dish
+5,12204,5	//Int_Dish
+5,12205,5	//Dex_Dish
+5,12206,5	//Luk_Dish
+5,12207,5	//Vit_Dish
+5,12208,40	//Battle_M
+5,12209,40	//Insuranc
+5,12210,40	//Bubble_G
+5,12211,5	//Kafra_Ca
+5,12212,5	//Giant_Fl
+5,12213,400	//Neuraliz
+5,12214,20	//Convex_M
+5,12215,5	//Blessing
+5,12216,5	//Inc_Agi_
+5,12217,5	//Aspersio
+5,12218,5	//Assumpti
+5,12219,5	//Wind_Wal
+5,12220,5	//Adrenali
+
+
+
+
+
+
+
+
+
+//2,19596,500 // Costume: Flapping Angel Wing
+2,20039,250 // Costume: Butterfly Ears
+2,19709,250 // Costume: Yellow Hat
+//2,31135,250 // Costume: Mini Crown
+
+
+
+
+0,16555,100
+0,7776,50
+0,14156,400
+
+
+
+
+
+
+
