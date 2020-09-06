@@ -11152,6 +11152,7 @@
 20547,C_Ghost_Effect,Costume Ghost Effect,4,0,,0,,0,,0,0xFFFFFFFF,63,2,8192,,1,0,0,{ hateffect(HAT_EF_C_GHOST_EFFECT,true); },{},{ hateffect(HAT_EF_C_GHOST_EFFECT,false); }
 20548,Costume_Popping_Poring_Aura,Costume Popping Poring Aura,4,0,,0,,0,,0,0xFFFFFFFF,63,2,8192,,1,0,0,{ hateffect(HAT_EF_C_POPPING_PORING_AURA,true); },{},{ hateffect(HAT_EF_C_POPPING_PORING_AURA,false); }
 20570,C_HeartChocoBag,Costume HeartChocoBag,4,0,,0,,,,0,0xFFFFFFFF,63,2,8192,,1,0,47,{},{},{}
+20571,C_Valkyrie_Wing,Costume Valkyrie Wings,4,0,,0,,,,0,0xFFFFFFFF,63,2,8192,,1,0,48,{ hateffect(HAT_EF_C_Valkyrie_Wing,true); },{},{ hateffect(HAT_EF_C_Valkyrie_Wing,false); }
 20572,C_WingOfHeart,Costume WingOfHeart,4,0,,0,,,,0,0xFFFFFFFF,63,2,8192,,1,0,50,{},{},{}
 20576,C_Cat_Fork,Costume Cat Fork,4,0,,0,,,,0,0xFFFFFFFF,63,2,8192,,1,0,53,{},{},{}
 20582,C_T_Bear_Bag,Costume Bear Backpack,4,0,,0,,,,0,0xFFFFFFFF,63,2,8192,,1,0,60,{},{},{}
