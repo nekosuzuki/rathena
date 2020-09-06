@@ -32,3 +32,62 @@
 Header:
   Type: ATTENDANCE_DB
   Version: 1
+  
+Body:
+  - Start: 20200901
+    End: 20201010
+    Rewards:
+      - Day: 1
+        ItemId: 12215
+      - Day: 2
+        ItemId: 12216
+      - Day: 3
+        ItemId: 12217
+        Amount: 5
+      - Day: 4
+        ItemId: 12218
+        Amount: 5
+      - Day: 5
+        ItemId: 12219
+      - Day: 6
+        ItemId: 12220
+      - Day: 7
+        ItemId: 12221
+        Amount: 3
+      - Day: 8
+        ItemId: 12205
+        Amount: 5
+      - Day: 9
+        ItemId: 12208
+        Amount: 5
+      - Day: 10
+        ItemId: 12212
+      - Day: 11
+        ItemId: 12210
+        Amount: 2
+      - Day: 12
+        ItemId: 12424
+        Amount: 3
+      - Day: 13
+        ItemId: 12427
+        Amount: 5
+      - Day: 14
+        ItemId: 12429
+        Amount: 5
+      - Day: 15
+        ItemId: 12428
+        Amount: 5
+      - Day: 16
+        ItemId: 12437
+        Amount: 5
+      - Day: 17
+        ItemId: 12436
+        Amount: 5
+      - Day: 18
+        ItemId: 12433
+        Amount: 5
+      - Day: 19
+        ItemId: 12431
+      - Day: 20
+        ItemId: 31178
+

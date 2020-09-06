@@ -16,7 +16,7 @@
 //= 1.5a Fix Bifrost Tower
 //============================================================
 
--	script	Warper	-1,{
+-	script	Aperture	-1,{
 function Go; function Disp; function Pick; function Restrict;
 
 // --------------------------------------------------
@@ -529,4 +529,4 @@ OnInit:
 // --------------------------------------------------
 //	Duplicates:
 // --------------------------------------------------
-izlude,124,148,6	duplicate(Warper)	Warper#tre	422
+moc_para01,13,33,4	duplicate(Aperture)	Warper#tre	90
