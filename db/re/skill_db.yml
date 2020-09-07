@@ -10351,17 +10351,19 @@ Body:
     TargetType: Attack
     DamageFlags:
       Critical: true
-    Range: 9
-    Hit: Single
-    HitCount: 1
+      Splash: true
+    Range: 20
+    Hit: Multi_Hit
+    HitCount: -7
     Element: Weapon
-    CastCancel: true
-    CastTime: 250
-    AfterCastActDelay: 2000
-    Cooldown: 150
-    FixedCastTime: 250
+    SplashArea: 7
+    CastCancel: false
+    CastTime: 0
+    AfterCastActDelay: 0
+    Cooldown: 0
+    FixedCastTime: 0
     Requires:
-      SpCost: 20
+      SpCost: 0
   - Id: 380
     Name: SN_SIGHT
     Description: Falcon Eyes
@@ -33358,8 +33360,8 @@ Body:
     TargetType: Self
     DamageFlags:
       NoDamage: true
-    Cooldown: 10000
-    FixedCastTime: 60
+    Cooldown: 0
+    FixedCastTime: 0
     CastTimeFlags:
       IgnoreDex: true
       IgnoreStatus: true
