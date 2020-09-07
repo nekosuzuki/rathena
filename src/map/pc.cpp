@@ -10483,9 +10483,9 @@ bool pc_equipitem(struct map_session_data *sd,short n,int req_pos,bool equipswit
 	if(pos == EQP_ACC) { //Accessories should only go in one of the two.
 		pos = req_pos&EQP_ACC;
 		if (pos == EQP_ACC) //User specified both slots.
-			pos = equip_index[EQI_ACC_R] >= 0 ? EQP_ACC_R : EQP_ACC_R;
-			pos = equip_index[EQI_ACC_R] > 0 ? EQP_ACC_L : EQP_ACC_R;
-			pos = equip_index[EQI_ACC_L] > 0 ? EQP_ACC_R : EQP_ACC_L;
+			pos = equip_index[EQI_ACC_L] >= 0 ? EQP_ACC_R : EQP_ACC_L; 
+
+
 
 		for (i = 0; i < sd->inventory_data[n]->slot; i++) { // Accessories that have cards that force equip location
 			if (!sd->inventory.u.items_inventory[n].card[i])
