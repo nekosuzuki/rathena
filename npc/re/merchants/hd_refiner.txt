@@ -184,6 +184,7 @@ alberta_in,16,56,3	duplicate(MightyHammer)	Mighty Hammer#alb	4_M_DWARF
 yuno_in01,171,18,3	duplicate(MightyHammer)	Mighty Hammer#yuno	4_M_DWARF
 ein_in01,22,82,3	duplicate(MightyHammer)	Mighty Hammer#ein	4_M_DWARF
 lhz_in02,280,19,3	duplicate(MightyHammer)	Mighty Hammer#lhz	4_M_DWARF
+//moc_para01,33,184,3	duplicate(MightyHammer)	Mighty Hammer#lhz	422
 
 // iRO NPC locations:
 // payon,174,133,4	duplicate(MightyHammer)	Mighty Hammer#im	4_M_DWARF

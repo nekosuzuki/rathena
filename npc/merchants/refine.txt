@@ -534,6 +534,10 @@ payon,144,173,5	script	Antonio	88,{
 	callfunc "refinemain","Antonio",0;
 	end;
 }
+moc_para01,26,184,5	script	Antonio	88,{
+	callfunc "refinemain","Antonio",0;
+	end;
+}
 alberta_in,28,58,0	script	Fredrik	85,{
 	callfunc "refinemain","Fredrik",0;
 	end;
@@ -566,7 +570,6 @@ function	script	refinemain	{
 	if( getbattleflag( "feature.refineui" ) == 3 ){
 		mes "["+ .@npc_name$ +"]";
 		mes "I've spent a long time refining powerful weapons.";
-		mes "You are in the presence of 장춰탕넨 [Zhang Zhuangtan]"; // TODO: find a valid translation
 		mes "Do you want to strengthen your equipment?";
 		close2;
 		refineui();
