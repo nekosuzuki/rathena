@@ -11,4 +11,7 @@
 
 
 
+#define VIP_ENABLE
+
+
 #endif /* CONFIG_CUSTOM_DEFINES_PRE_HPP */

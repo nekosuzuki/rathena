@@ -13872,7 +13872,7 @@
 
 
 // IRO Consumables
-7700001,태국향수CAST,Toey's Miracle Elixr,2,20,,1,,,,,0xFFFFFFFF,63,2,,,,,,{specialeffect2 EF_POTION_BERSERK; sc_start SC_SPEEDUP1,600000,40; itemheal 100,0; sc_start SC_STRFood,3600000,10; sc_start SC_AGIFood,3600000,10; sc_start SC_VITFood,3600000,10; sc_start SC_INTFood,3600000,10; sc_start SC_DEXFood,3600000,10; sc_start SC_LUKFood,3600000,10; sc_start SC_ATKPOTION,3600000,20; sc_start SC_MATKPOTION,3600000,20;},{},{}
+7700001,태국향수CAST,Eternal Miracle Elixr,2,20,,1,,,,,0xFFFFFFFF,63,2,,,,,,{specialeffect2 EF_POTION_BERSERK; sc_start SC_SPEEDUP1,600000,40; itemheal 100,0; sc_start SC_STRFood,3600000,10; sc_start SC_AGIFood,3600000,10; sc_start SC_VITFood,3600000,10; sc_start SC_INTFood,3600000,10; sc_start SC_DEXFood,3600000,10; sc_start SC_LUKFood,3600000,10; sc_start SC_ATKPOTION,3600000,50; sc_start SC_MATKPOTION,3600000,50; sc_start SC_BLESSING,3600000,10; sc_start SC_INCREASEAGI,3600000,10; sc_start SC_ANGELUS,3600000,10;},{},{}
 
 
 
@@ -13883,5 +13883,6 @@
 
 
 
-
+//VIP Box
+23216,VIP_BOX,[10Day] Premium Subscription,0,50,,70,,,,,0xFFFFFFFF,63,2,,,,,,{bonus_script_clear; vip_time(60*24*10); {bonus_script "{}",14400,0,0,EFST_PREM;}},{},{} //VIP ID for 10 days
 

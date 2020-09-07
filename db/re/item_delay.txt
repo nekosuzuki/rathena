@@ -106,3 +106,8 @@
 
 23277,180000	//Mado_Box
 
+
+
+
+23216,14400,SC_REUSE_LIMIT_F	//VIP Box
+
