@@ -13886,3 +13886,10 @@
 //VIP Box
 23216,VIP_BOX,[10Day] Premium Subscription,0,50,,70,,,,,0xFFFFFFFF,63,2,,,,,,{bonus_script_clear; vip_time(60*24*10); {bonus_script "{}",14400,0,0,EFST_PREM;}},{},{} //VIP ID for 10 days
 
+
+
+
+
+
+//REVO Items
+9900001,Enforcer_Shoes,Enforcer Shoes,4,20,,400,,12,,0,0xFFFFFFFF,63,2,64,,1,1,0,{ .@r = getrefine(); .@hpsp = 3; .@a = getskilllv("GC_WEAPONCRUSH"); .@b = getskilllv("GC_WEAPONBLOCKING"); .@c = getskilllv("GC_COUNTERSLASH"); if (.@r >= 5) { .@hpsp += 7; .@dmg = BaseLevel; if (.@r >= 7) { .@hpsp += 10; .@dmg += BaseLevel + 30*getskilllv("AS_POISONREACT"); } bonus2 bSkillAtk,"ASC_METEORASSAULT",.@dmg; } bonus bMaxHPrate,.@hpsp; bonus bMaxSPrate,.@hpsp; bonus bMdef,10; skill "BS_MAXIMIZE",1; bonus2 bSkillUseSP,"ASC_METEORASSAULT",8; bonus2 bAddClass,Class_All,4*.@a; bonus2 bSkillCooldown,"GC_HALLUCINATIONWALK",-5000*.@b; bonus2 bIgnoreDefClassRate,Class_All,20*.@c; bonus2 bVariableCastrate,"ASC_METEORASSAULT",-7*(.@a+.@b+.@c); },{},{}
