@@ -15,7 +15,7 @@
 //= 1.9 Migrate/Integrate to Global Functions Platinum Skills. [mazvi]
 //============================================================
 
-izlude,119,248,6	script	Fiola	123,{
+izlude,119,248,6	script	Fiola	435,{
 function Get_Job_Equip;
 // Checks if the Player has the required level.
 // closes if not, returns if yes
