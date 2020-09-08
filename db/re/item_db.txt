@@ -13884,7 +13884,7 @@
 
 
 //VIP Box
-23216,VIP_BOX,[10Day] Premium Subscription,0,50,,70,,,,,0xFFFFFFFF,63,2,,,,,,{bonus_script_clear; vip_time(60*24*10); {bonus_script "{}",14400,0,0,EFST_PREM;}},{},{} //VIP ID for 10 days
+23216,VIP_BOX,[10Day] Premium Subscription,0,50,,70,,,,,0xFFFFFFFF,63,2,,,,,,{bonus_script_clear; vip_time(60*24*10); {bonus_script "{}",864000000,0,0,EFST_PREM;}},{},{} //VIP ID for 10 days
 
 
 
