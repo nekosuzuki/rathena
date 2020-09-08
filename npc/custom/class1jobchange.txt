@@ -454,6 +454,8 @@ function	Get_Job_Equip	{
 OnInit:
 	// Initialisation, do not edit these
 	.NPCName$ = "[Fiola]";
+
+	waitingroom "Job Change",0;
 	
 	// Settings
 	.ThirdClass = true;			// Enable third classes?
