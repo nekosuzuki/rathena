@@ -60,8 +60,6 @@
 	sc_end SC_STRIPHELM;
 	
 	specialeffect2 EF_HEAL2;
-	specialeffect2 EF_INCAGILITY;
-	specialeffect2 EF_BLESSING;
 	
 	percentheal 100,100;
 	
@@ -76,17 +74,11 @@
 	sc_start SC_MAGNIFICAT,1800000,5;
 	sc_start SC_GLORIA,1800000,5;
 
-	@delay_buff++;
-	sleep2 1000;
-	@delay_buff = 0;
 
 	if(.@Repair)
 	repairall;
 	if(.@Identify)
 	identifyall;
-	percentheal 100,100;
-	if (.@Delay)
-	@HD = gettimetick(2) + .@Delay;
 	end;
 }
 
