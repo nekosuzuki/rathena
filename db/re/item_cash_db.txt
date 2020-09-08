@@ -161,6 +161,9 @@
 2,19709,250 // Costume: Yellow Hat
 //2,31135,250 // Costume: Mini Crown
 2,20498,1500	//Costume:Elephant Hat
+2,31803,5000	//Costume Cons of Wind
+2,21118,5000	//Costume Rabbit Winged Robe
+2,21119,9500	//Costume Rabbit Family Balloon
 
 
 
