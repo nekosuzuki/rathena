@@ -49,7 +49,7 @@
 3,1563,400	//Diary_Of_Sage_Box1
 3,13023,400	//Asura_Box1
 3,1174,500	//	Executioner_Box1
-3,1373,500	//	Brood_Axe_Box1
+//3,1373,500	//	Brood_Axe_Box1
 3,1374,500	//	Tomahawk_Box1
 3,1729,500	//	Bow_Of_Rudra_Box1
 3,13402,500	//	Cutlas_Box1
@@ -100,6 +100,31 @@
 
 
 
+4,1292,900	//Upg Katar
+4,1585,900	//Upg book
+4,18112,900	//Upg Bow
+4,13071,900	//Upg Dagger
+4,13316,900	//Upg Huuma
+4,1491,900	//Upg Spear
+4,16019,900	//Upg Mace
+4,13115,900	//Upg Revolver
+4,2015,900	//Upg Staff
+4,1394,900	//Upg Axe
+4,21000,900	//Upg Sword
+
+
+
+
+4,15015,500	//Upg adven suit
+4,15016,500	//Upg Coat
+4,15017,500	//Upg Saint Robe
+4,15018,500	//Upg Tight
+4,15019,500	//Upg Thief Clothes
+4,15020,500	//Upg Mail
+4,15021,500	//Upg formal suit
+4,2561,500	//Upg Hood
+4,2562,500	//Upg Muffler
+4,2563,500	//Upg Manteau
 
 
 
