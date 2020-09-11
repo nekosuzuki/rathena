@@ -526,7 +526,8 @@
 12996,4 //Blue_Herb_Box
 12997,4 //Elunium_Box
 12998,4 //Oridecon_Box
-12999,4 //Branch_Of_Dead_Tree_Box
+//12999,1 //Branch_Of_Dead_Tree_Box
+12999,2 //Branch_Of_Dead_Tree_Box
 13500,4 //Insurance60_Package
 13501,4 //Assorted_Scroll_Box
 13502,4 //Drooping_Kitty_Box
@@ -1720,7 +1721,7 @@
 17254,4 //RWC_2012_Pendant_Box
 17256,4 //Good_Student_Gift_Box
 17257,4 //Bad_Student_Gift_Box
-17262,4 //Ex_Def_Potion_Box
+//17262,4 //Ex_Def_Potion_Box
 17270,4 //STR_Biscuit_Stick_Box
 17271,4 //VIT_Biscuit_Stick_Box
 17272,4 //AGI_Biscuit_Stick_Box
@@ -1795,3 +1796,9 @@
 100072,32 //WL_MB_CL
 100073,32 //WL_MB_CM
 100074,32 //WL_MB_TV
+
+
+
+
+
+

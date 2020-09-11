@@ -746,6 +746,7 @@ enum e_random_item_group {
 	IG_ENCHANT_STONE_BOX14,
 	IG_ENCHANT_STONE_BOX15,
 	IG_Eternal_Winter_Scroll,
+	IG_Eragon_Egg,
 };
 
 /// Enum for bound/sell restricted selling

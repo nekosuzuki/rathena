@@ -4675,3 +4675,35 @@ IG_Santa_Gift,14586,500,5,1,0,0,0	// 5x Spark_Candy
 IG_Santa_Gift,12350,500,5,1,0,0,0	// 5x Angeling_Potion
 IG_Santa_Gift,12710,500,5,1,0,0,0	// 5x Guyak_Pudding
 IG_Santa_Gift,12259,500,2,1,0,0,0	// 2x Miracle_Medicine
+
+
+
+
+
+
+//Eragon Egg
+IG_Eragon_Egg,20249,10,1,1,1,0,0	//Red Strong Hair
+IG_Eragon_Egg,31719,10,1,1,1,0,0	//Costume cons of fire
+IG_Eragon_Egg,22829,50,1,1,1,0,0	//Sealed Card Album
+IG_Eragon_Egg,18962,50,1,1,1,0,0	//Panda Balloon
+IG_Eragon_Egg,2168,50,1,1,1,0,0	//Immune Shield
+IG_Eragon_Egg,19934,50,1,1,1,0,0	//Alive Ten Gallon
+IG_Eragon_Egg,20195,20,1,1,1,0,0	//Costume Scratching Cat
+IG_Eragon_Egg,18893,50,1,1,1,0,0	//Dragon Claw Helm
+IG_Eragon_Egg,5255,30,1,1,1,0,0	//Triple Poring Hat
+IG_Eragon_Egg,5567,30,1,1,1,0,0	//Sinulog Hat
+IG_Eragon_Egg,18510,30,1,1,1,0,0	//Bloody Angel Hair Band
+IG_Eragon_Egg,24075,40,1,1,1,0,0	//Large Shadow Weapon
+IG_Eragon_Egg,24072,40,1,1,1,0,0	//Large Shadow Armor
+IG_Eragon_Egg,24214,40,1,1,1,0,0	//Advanced Shadow Shoes
+IG_Eragon_Egg,24215,40,1,1,1,0,0	//Advanced Shadow Shield
+IG_Eragon_Egg,18647,50,1,1,1,0,0	//Star Eyepatch
+IG_Eragon_Egg,5186,50,1,1,1,0,0	//Geographer Band
+IG_Eragon_Egg,12794,1000,1,1,0,0,0	//Combat Pill
+IG_Eragon_Egg,12350,1000,5,1,0,0,0	//Angeling Potion
+IG_Eragon_Egg,12419,1000,5,1,0,0,0	//Mana Plus
+IG_Eragon_Egg,17262,1000,5,1,0,0,0	//Special Defense Potion Box
+IG_Eragon_Egg,13270,1000,5,1,0,0,0	//SwingK
+IG_Eragon_Egg,12999,1000,1,1,0,0,0	//Dead Branch Box
+
+

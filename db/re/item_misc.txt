@@ -1858,3 +1858,15 @@ IG_Eternal_Winter_Scroll,12103,50 // BB
 IG_Eternal_Winter_Scroll,12412,50 // HE_GUM
 
 
+
+
+
+
+
+
+
+
+
+
+
+
