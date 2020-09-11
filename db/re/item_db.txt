@@ -9505,7 +9505,7 @@
 17307,Midgard_Scroll,Midgard Egg,18,10,,10,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Midgard_Scroll); },{},{}
 17308,Half_Asprika_box1,Half Asprika box1,2,20,,10,,,,,0xFFFFFFFF,63,2,,,,,,{ rentitem 2566,86400; },{},{}
 17311,Half_Brynhild_box1,Half Brynhild box1,2,20,,0,,,,,0xFFFFFFFF,63,2,,,47,,,{ rentitem 15023,86400; },{},{}
-17314,Infinite_Giant_Fly_Wing_Box,Infinite Giant Fly Wing Box,18,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ rentitem 12212,86400; },{},{}
+17314,Infinite_Giant_Fly_Wing_Box,Infinite Giant Fly Wing Box,18,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ rentitem 12212,2592000; },{},{}
 17315,Lucky_Silvervine_Fruit_Box_10,Lucky Silvervine Fruit Box(10),18,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ getitem 6417,10; },{},{}
 17316,Lucky_Silvervine_Fruit_Box_110,Lucky Silvervine Fruit Box(110),18,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ getitem 6417,110; },{},{}
 17317,Sweet_Midgard_Scroll,Sweet Midgard Egg,18,10,,10,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Sweet_Midgard_Scroll); },{},{}
@@ -13885,7 +13885,7 @@
 
 
 //VIP Box
-23216,VIP_BOX,[10Day] Premium Subscription,0,50,,70,,,,,0xFFFFFFFF,63,2,,,,,,{bonus_script_clear; vip_time(60*24*10); {bonus_script "{}",864000000,0,0,EFST_PREM;}},{},{} //VIP ID for 10 days
+23216,VIP_BOX,[10Day] Premium Subscription,0,50,,70,,,,,0xFFFFFFFF,63,2,,,,,,{bonus_script_clear; vip_time(60*24*10); {bonus_script "{}",(60*60*24*10*1000),0,0,EFST_PREM;}},{},{} //VIP ID for 10 days
 
 
 
