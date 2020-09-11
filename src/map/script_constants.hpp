@@ -5129,6 +5129,7 @@
 	export_constant(IG_ENCHANT_STONE_BOX14);
 	export_constant(IG_ENCHANT_STONE_BOX15);
 	export_constant(IG_Eternal_Winter_Scroll);
+	export_constant(IG_Eragon_Egg);
 
 	/* unit stop walking */
 	export_constant(USW_NONE);

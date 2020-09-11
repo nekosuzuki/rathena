@@ -10913,7 +10913,7 @@
 20246,C_Decoration_Time,Costume Decoration Time,4,0,,0,,,,0,0xFFFFFFFF,63,2,2048,,1,0,1309,{},{ sc_start SC_TIME_ACCESSORY,INFINITE_TICK,0; },{ sc_end SC_TIME_ACCESSORY; }
 20247,C_Fate_Of_Black_Hand,Costume Fate Of Black Hand,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,1310,{},{},{}
 20248,C_Black_Strong_Hair,Costume Black Strong Hair,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,1315,{},{},{}
-20249,C_Red_Strong_Hair,Costume Red Strong Hair,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,1316,{},{},{}
+20249,C_Red_Strong_Hair,Costume Red Strong Hair,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,2008,{},{},{}
 20250,C_White_Strong_Hair,Costume White Strong Hair,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,1317,{},{},{}
 20251,C_Rose_Cascade,Costume Rose Cascade,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,920,{},{},{}
 20252,C_Accessory_of_Ascetic,Costume Mage Decoration,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,1150,{},{},{}
@@ -13879,6 +13879,7 @@
 
 // Kashuay's Box
 8800001,Eternal_Winter_Scroll, Eternal Winter Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eternal_Winter_Scroll); },{},{}
+43255,Eragon_Egg, Eragon Egg,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eragon_Egg); },{},{}
 
 
 
@@ -13896,8 +13897,8 @@
 
 
 
-
-
+//GGT Imports
+18962,Panda_Balloon,Panda Balloon,4,0,,0,,,,0,0xFFFFFFFF,63,2,1,,1,0,1115,{bonus bAspd,1;    },{},{}
 
 //Costumes
 31803,C_Cons_Of_Wind,Costume Cons of Wind,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,0,1924,{},{},{}
