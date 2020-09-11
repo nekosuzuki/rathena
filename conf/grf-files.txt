@@ -13,4 +13,5 @@
 //grf: D:\Eternal Ragnarok\[Client] Eternal Ragnarok\eternal-ro.grf
 //grf: D:\Eternal Ragnarok\[Client] Eternal Ragnarok\data.grf
 grf: D:\Eternal Ragnarok\[Client] Eternal Ragnarok\rdata.grf
-//data_dir: D:\Eternal Ragnarok\Eternal
+grf: D:\Eternal Ragnarok\[Client] Eternal Ragnarok\resnametable.grf
+//data_dir: D:\Eternal Ragnarok\[Client] Eternal Ragnarok\data
