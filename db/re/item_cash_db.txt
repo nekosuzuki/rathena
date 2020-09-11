@@ -115,6 +115,10 @@
 4,2015,900	//Upg Staff
 4,1394,900	//Upg Axe
 4,21000,900	//Upg Sword
+4,2459,500	//Upg Shoes
+4,2460,500	//Upg Boots
+4,2461,500	//Upg Greaves
+4,2828,400	//Upg Clips
 
 
 
