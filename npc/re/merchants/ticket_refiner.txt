@@ -200,7 +200,7 @@ prontera,184,177,6	script	Refine Master	851,{
 
 
 
-moc_para01,33,184,4	script	Refine Master	851,{
+moc_para01,38,185,4	script	Abadui	851,{
 	disable_items;
 	if (countitem(6238) || countitem(6228) || countitem(6229) || countitem(6230) || countitem(6231) || countitem(6456))
 		set .@bWeaponUp,1;

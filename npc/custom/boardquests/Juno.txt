@@ -25,6 +25,10 @@ yuno,180,145,0	script	Bounty Board 70-110#jn1	837,{
 		1386,	62558,	116325,		130500,	// SLEEPER
 		1369,	62559,	 99787,		112275;	// GRAND_PECO
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 70 && BaseLevel <= 110" );
+	end;
 }
 
 yuno,182,145,0	script	Bounty Board 101-150#jn2	837,{
@@ -37,6 +41,10 @@ yuno,182,145,0	script	Bounty Board 101-150#jn2	837,{
 		1678,	62715,	297225,		222975,	// VENATU_3
 		1679,	62716,	297225,		222975,	// VENATU_4
 		1365,	62717,	342225,		256725;	// APOCALIPS
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 101 && BaseLevel <= 150" );
 	end;
 }
 

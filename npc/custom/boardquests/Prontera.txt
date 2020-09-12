@@ -28,6 +28,10 @@ prontera,136,225,3	script	Bounty Board 1-20#prt1	837,{
 		1063,	62816,	 5400,		 3900,	// LUNATIC
 		1094,	62817,	13050,		 9675;	// AMBERNITE
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 1 && BaseLevel <= 20" );
+	end;
 }
 
 prontera,138,227,3	script	Bounty Board 21-50#prt2	837,{
@@ -44,6 +48,10 @@ prontera,138,227,3	script	Bounty Board 21-50#prt2	837,{
 		1033,	62736,	26100,		29475,	// ELDER_WILOW
 		1055,	62818,	12150,		27337;	// MUKA
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 21 && BaseLevel <= 50" );
+	end;
 }
 
 prontera,140,229,3	script	Bounty Board 41-70#prt3	837,{
@@ -52,6 +60,10 @@ prontera,140,229,3	script	Bounty Board 41-70#prt3	837,{
 		1494,	62738,	50625,		56925,	// KIND_OF_BEETLE
 		1166,	62739,	64350,		72450,	// SAVAGE
 		1138,	62819,	49500,		55575;	// MAGNOLIA
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 41 && BaseLevel <= 70" );
 	end;
 }
 
@@ -62,6 +74,11 @@ prontera,142,231,3	script	Bounty Board 61-100#prt4	837,{
 		1139,	62742,	 66825,		 75263,	// MANTIS
 		1037,	62743,	162000,		182250,	// SIDE_WINDER
 		1099,	62744,	 91125,		102600;	// ARGIOPE
+	end;
+
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 61 && BaseLevel <= 100" );
 	end;
 }
 

@@ -27,4 +27,8 @@ mid_camp,182,253,0	script	Bounty Board 100-150#mc1	837,{
 		1993,	62600,		331200,		248850,	// NAGA
 		1994,	62602,		182475,		203175;	// LUCIOLA_VESPA
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 100 && BaseLevel <= 150" );
+	end;
 }

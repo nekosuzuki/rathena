@@ -32,4 +32,9 @@ mora,98,110,3	script	Bounty Board 141#mo1	837,{
 		2369,	62830,		810112,		892800,	// LICHTERN_R
 		2370,	62831,		811575,		847912;	// LICHTERN_G
 	end;
+
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 141" );
+	end;
 }

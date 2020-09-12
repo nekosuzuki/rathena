@@ -23,12 +23,20 @@ hugel,67,153,3	script	Bounty Board 81-100#hu1	837,{
 		1715,	62789,		146700,		169200,	// NOVUS
 		1718,	62790,		121500,		136575;	// NOVUS_
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 81 && BaseLevel <= 100" );
+	end;
 }
 
 hugel,66,152,3	script	Bounty Board 101-150#hu2	837,{
 	callfunc "F_Bounty_Board", 101, 150, 4, 1,
 		1699,	62791,		275400,		232650,	// ANCIENT_MIMIC
 		1698,	62792,		288450,		216225;	// DEATHWORD
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 101 && BaseLevel <= 150" );
 	end;
 }
 
@@ -40,5 +48,9 @@ hugel,65,151,3	script	Bounty Board 121-160#hu3	837,{
 		1753,	62796,		513225,		402412,	// FRUS
 		1716,	62798,		508500,		381262,	// ACIDUS_
 		1713,	62799,		508500,		381262;	// ACIDUS
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 121 && BaseLevel <= 160" );
 	end;
 }

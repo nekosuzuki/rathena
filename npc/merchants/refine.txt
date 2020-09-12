@@ -534,7 +534,7 @@ payon,144,173,5	script	Antonio	88,{
 	callfunc "refinemain","Antonio",0;
 	end;
 }
-moc_para01,26,184,5	script	Antonio	88,{
+moc_para01,26,185,5	script	Antonio	88,{
 	callfunc "refinemain","Antonio",0;
 	end;
 }

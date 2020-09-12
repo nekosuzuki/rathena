@@ -17,118 +17,6 @@
 //= 1.4 Added Merry Badger. [Euphy/-SkittleNugget-]
 //============================================================
 
-// Acolyte Warper (part of other/acolyte_warp.txt)
-//============================================================
-moc_para01,14,32,5	script	Aperture#acolytewarp	90,{
-	mes "[Aperture]";
-	mes "Hello there, adventurer.";
-	mes "I've been studying magic from all over Midgard to upgrade what I believe to be one of the greatest skills available to the acolyte class.";
-	next;
-
-	if (is_function("VIP_iRO_Acolyte"))
-		callfunc "VIP_iRO_Acolyte","[Aperture]","Prontera";
-
-	mes "[Aperture]";
-	mes "I am the one and only Acolyte that has attained the Level 10 Warp Portal skill!";
-	emotion ET_THINK, playerattached();
-	next;
-	mes "[Aperture]";
-	mes "That's right! And...";
-	mes "I promise you that I don't forget locations that I have already memorized.";
-	mes "One day I will level up my skills to warp to wherever I please~";
-	next;
-	mes "[Aperture]";
-	mes "I am willing to warp you to the many locations that I have memorized for a small fee.";
-	mes "Would you like to use this service?";
-	next;
-	switch(select("Yes:No")) {
-	case 1:
-		mes "[Aperture]";
-		mes "Where would you like to go to?";
-		mes "I wish you goodluck on your journey.";
-		next;
-
-		setarray .@towns$[0], "Prontera", "Izlude", "Geffen", "Payon", "Morocc", "Alberta", "Al De Baran", "Comodo", "Umbala", "Juno", "Einbroch", "Lighthalzen", "Hugel", "Rachel";
-		setarray .@cost[0],          600,      600,     1200,    1200,     1200,      1800,          2200,     2200,     2200,   1800,       2200,          2200,    2200,     2200;
-
-		set .@size, getarraysize(.@towns$);
-		for(set .@i,0; .@i<.@size; set .@i,.@i+1)
-			set .@menu$, .@menu$+.@towns$[.@i]+" -> "+.@cost[.@i]+"z:";
-		set .@i, select(.@menu$+"Cancel")-1;
-		if (.@i == .@size) {
-			mes "[Aperture]";
-			mes "Come back when you need a warp.";
-			close;
-		}
-		if (Zeny < .@cost[.@i]) {
-			mes "[Aperture]";
-			mes "I'm sorry, but you don't have";
-			mes "enough zeny for the Teleport";
-			mes "Service. The fee to teleport";
-			mes "to "+.@towns$[.@i]+" is "+.@cost[.@i]+" zeny.";
-			close;
-		}
-		specialeffect2 EF_READYPORTAL;
-		specialeffect2 EF_TELEPORTATION;
-		specialeffect2 EF_PORTAL;
-		next;
-		set Zeny, Zeny - .@cost[.@i];
-		switch(.@i) {
-			case 0: warp "prontera",116,72; break;
-			case 1: warp "izlude",128,98; break;
-			case 2: warp "geffen",120,39; break;
-			case 3: warp "payon",161,58; break;
-			case 4: warp "morocc",156,46; break;
-			case 5: warp "alberta",117,56; break;
-			case 6: warp "aldebaran",168,112; break;
-			case 7: warp "comodo",209,143; break;
-			case 8: warp "umbala",100,154; break;
-			case 9: warp "yuno",158,125; break;
-			case 10: warp "einbroch",67,195; break;
-			case 11: warp "lighthalzen",159,90; break;
-			case 12: warp "hugel",98,150; break;
-			case 13: warp "rachel",119,135; break;
-		}
-		close;
-	case 2:
-		mes "[Aperture]";
-		mes "Come back when you need a warp.";
-		close;
-	}
-}
-
-function	script	VIP_iRO_Acolyte	{
-	if (!vip_status(VIP_STATUS_ACTIVE)) {
-		mes getarg(0);
-		mes "But, my full powers are only available to those who have are VIPs.";
-		mes "I can still offer you a warp to "+getarg(1)+" though.";
-		next;
-		switch(select(getarg(0)+" -> 1800z:Cancel")) {
-		case 1:
-			if (Zeny < 1800) {
-				mes getarg(0);
-				mes "I'm sorry, but you don't have";
-				mes "enough zeny for the Teleport";
-				mes "Service. The fee to teleport";
-				mes "to "+getarg(1)+" is 1,800 zeny.";
-				close;
-			}
-			specialeffect2 EF_READYPORTAL;
-			specialeffect2 EF_TELEPORTATION;
-			specialeffect2 EF_PORTAL;
-			next;
-			set Zeny, Zeny - 1800;
-			if (getarg(1) == "Juno")
-				warp "yuno",158,125;
-			else
-				warp "prontera",116,72;
-			close;
-		case 2:
-			close;
-		}
-	}
-	return;
-}
 
 
 // Primo d'Buffer, VIP stat bonuses
@@ -933,71 +821,8 @@ L_Exchange:
 	return;
 }
 
-// Kafra Stacker
-//============================================================
-moc_para01,41,169,2	script	Kafra Stacker#eden	749,{
-	if (checkweight(1201,1) == 0 || MaxWeight - Weight < 2000) {
-		mes "- Wait a moment! -";
-		mes "- Currently you're carrying -";
-		mes "- too much weight in items. -";
-		mes "- Please come back later -";
-		mes "- after you put some into Kafra storage. -";
-		close;
-	}
-	mes "[Toma]";
-	mes "I can take your non-stacking Kafra Consumables";
-	mes "and make them fit neatly into stacks!";
-	next;
-	mes "[Toma]";
-	mes "Please understand that I can";
-	mes "only stack 10 groups at a time";
-	mes "so keep talking to me until";
-	mes "you have 1 stack of each!";
-	next;
-	while(1) {
-		if(select("Do it!:Never mind.") == 2)
-			break;
-		// Something strange goes on here, haven't quite figured it out...
-		mes "[Toma]";
-		mes "Ten stack down!";
-		mes "Want to do another?";
-		next;
-	}
-	mes "[Toma]";
-	mes "Ok then, laterz.";
-	close;
-}
 
-// Code Redeemer
-//============================================================
-moc_para01,38,162,2	script	Code the Redeemer#Give1	405,{
-	if (checkweight(1201,1) == 0 || MaxWeight - Weight < 2000) {
-		mes "^0000ffHold it right there!";
-		mes "You're carrying too many items and don't have enough inventory space to receive any rewards. Please make more inventory space available and come back to take this challenge.^000000";
-		close;
-	}
-	mes "[Code the Redeemer]";
-	mes "Welcome, "+strcharinfo(0)+"!";
-	mes "I've been expecting you.";
-	next;
-	mes "[Code the Redeemer]";
-	mes "I am a distributor of all the";
-	mes "items that adventurers like";
-	mes "yourself purchase on websites";
-	mes "or receive as promotions.";
-	next;
-	mes "[Code the Redeemer]";
-	mes "^0000FFIf the list is empty,";
-	mes "that means that you have";
-	mes "not purchased, or inputted";
-	mes "your serial code from the purchasing website.^000000";
-	next;
 
-	// If you have a code redemption system, write your SQL queries here.
-	select("");
-
-	close;
-}
 
 // Cash Shops
 //============================================================
@@ -1020,8 +845,8 @@ moc_para01,14,185,4	script	Normalson#ed	826,{
 	end;
 }
 
-// Advanced Refiner "Suhnmi" (merchants/advanced_refiner.txt)
-moc_para01,26,185,4	duplicate(Suhnbi#cash)	Suhnmi#eden	85
+// Advanced Refiner "Suhnmi" (merchants/refine.txt)
+//moc_para01,26,185,4	duplicate(Suhnbi#cash)	Suhnmi#eden	85
 
 // HD Refiner "Blacksmith Mighty Hammer" (re/merchants/hd_refiner.txt)
 // A combination of the +7~9 and +10 and up refiner, currently a placeholder.
@@ -1052,7 +877,7 @@ moc_para01,21,185,4	duplicate(Alora)	Alora#headgear_dye2	862
 
 // Stylist "Dinorah Lacostt" (?)
 // Dyes clothing for an Omni Clothing Dye, currently a placeholder.
-moc_para01,33,185,4	script	Dinorah Lacostt#ed	862,{ end; }
+//moc_para01,33,185,4	script	Dinorah Lacostt#ed	862,{ end; }
 
 // Commonly Updated NPCs
 //============================================================

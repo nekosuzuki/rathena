@@ -25,6 +25,10 @@ geffen,78,75,3	script	Bounty Board 1-20#gf1	837,{
 		1020,	62662,	16200,		12151,	// MANDRAGORA
 		1094,	62663,	13050,		 9675;	// AMBERNITE
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 1 && BaseLevel <= 20" );
+	end;
 }
 
 geffen,77,76,3	script	Bounty Board 21-50#gf2	837,{
@@ -38,6 +42,10 @@ geffen,77,76,3	script	Bounty Board 21-50#gf2	837,{
 		1145,	62812,	20250,		22725,	// MARTIN
 		1033,	62813,	26100,		29475;	// ELDER_WILOW
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 21 && BaseLevel <= 50" );
+	end;
 }
 
 geffen,76,77,3	script	Bounty Board 41-75#gf3	837,{
@@ -48,6 +56,10 @@ geffen,76,77,3	script	Bounty Board 41-75#gf3	837,{
 		1258,	62671,	50625,		56925,	// GOBLIN_ARCHER
 		1169,	62820,	37350,		42075;	// SKEL_WORKER
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 41 && BaseLevel <= 75" );
+	end;
 }
 
 geffen,75,78,3	script	Bounty Board 61-100#gf4	837,{
@@ -55,6 +67,10 @@ geffen,75,78,3	script	Bounty Board 61-100#gf4	837,{
 		1036,	62672,	65475,		 73800,	// GHOUL
 		1130,	62673,	71100,		 79875,	// JAKK
 		1061,	62674,	56250,		116100;	// NIGHTMARE
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 61 && BaseLevel <= 100" );
 	end;
 }
 
@@ -69,6 +85,10 @@ geffen,74,79,3	script	Bounty Board 81-120#gf5	837,{
 		1155,	62681,	131625,		148050,	// PETIT
 		1117,	62682,	150525,		144000,	// EVIL_DRUID
 		1263,	62683,	103275,		150075;	// WIND_GHOST
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 81 && BaseLevel <= 120" );
 	end;
 }
 
@@ -85,5 +105,9 @@ geffen,73,80,3	script	Bounty Board 101-150#gf6	837,{
 		1390,	62692,	321975,		241425,	// VIOLY
 		//1292,	62693,						// MINI_DEMON
 		1310,	62815,	347625,		347625;	// MAJORUROS
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 101 && BaseLevel <= 150" );
 	end;
 }
