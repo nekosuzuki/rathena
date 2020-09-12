@@ -28,6 +28,10 @@ comodo,104,136,3	script	Bounty Board 40-60#cmd1	837,{
 		1271,	62622,	 82012,		 92475,	// ALLIGATOR
 		1118,	62809,	 59140,		 66491;	// FLORA
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 40 && BaseLevel <= 60" );
+	end;
 }
 
 comodo,106,136,3	script	Bounty Board 60-105#cmd2	837,{
@@ -35,5 +39,9 @@ comodo,106,136,3	script	Bounty Board 60-105#cmd2	837,{
 		1040,	62623,	 91125,		102600,	// GOLEM
 		1278,	62624,	113850,		128025,	// STALACTIC_GOLEM
 		1148,	62625,	293062,		219712;	// MEDUSA
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 60 && BaseLevel <= 105" );
 	end;
 }

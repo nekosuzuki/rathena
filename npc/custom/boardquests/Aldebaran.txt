@@ -26,4 +26,8 @@ aldebaran,144,128,3	script	Bounty Board#al1	837,{
 		2916,	62893,		1675575,	1576125,	// BIG_BEN
 		2919,	62894,		1321650,	1489050;	// NEO_PUNK
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 140" );
+	end;
 }

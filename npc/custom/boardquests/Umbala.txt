@@ -25,4 +25,9 @@ umbala,124,85,1	script	Bounty Board 40-100#um1	837,{
 		1499,	62611,	 79650,		 89775,	// WOOTAN_FIGHTER
 		1500,	62612,	103725,		150300;	// PARASITE
 	end;
+
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 40 && BaseLevel <= 100" );
+	end;
 }

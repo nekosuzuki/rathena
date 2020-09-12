@@ -269,4 +269,8 @@ L_BountyDel:
 	else
 		end;
 
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "Class != Job_Novice" );
+	end;
+
 }

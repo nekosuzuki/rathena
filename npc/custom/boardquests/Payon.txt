@@ -24,6 +24,10 @@ payon,148,95,3	script	Bounty Board 1-20#pay1	837,{
 		1014,	62565,	13050,		9675,	// SPORE
 		1025,	62566,	13050,		9675;	// SNAKE
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel < 21" );
+	end;
 }
 
 payon,148,93,3	script	Bounty Board 21-50#pay2	837,{
@@ -32,6 +36,10 @@ payon,148,93,3	script	Bounty Board 21-50#pay2	837,{
 		1128,	62797,	24300,		27225,	// HORN
 		1076,	62560,	18225,		20475,	// SKELETON
 		1028,	62561,	24300,		27225;	// SOLDIER_SKELETON
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 20 && BaseLevel <= 50" );
 	end;
 }
 
@@ -43,6 +51,10 @@ payon,148,91,3	script	Bounty Board 41-75#pay3	837,{
 		1026,	62646,	55575,		62550,	// MUNAK
 		1188,	62647,	59625,		67050;	// BON_GUN
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 41 && BaseLevel <= 75" );
+	end;
 }
 
 payon,148,89,3	script	Bounty Board 61-100#pay4	837,{
@@ -50,5 +62,9 @@ payon,148,89,3	script	Bounty Board 61-100#pay4	837,{
 		1170,	62648,	66750,		 75150,	// SOHEE
 		1110,	62649,	75900,		 85350,	// DOKEBI
 		1180,	62650,	99750,		112200;	// NINE_TAIL
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 61 && BaseLevel <= 100" );
 	end;
 }

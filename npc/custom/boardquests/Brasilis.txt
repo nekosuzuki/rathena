@@ -27,4 +27,8 @@ brasilis,190,224,0	script	Bounty Board 70-175#bra1	837,{
 		2070,	62607,	 89850,		153450,	// PIRANHA
 		2069,	62608,	160500,		133500;	// IARA
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 70 && BaseLevel <= 175" );
+	end;
 }

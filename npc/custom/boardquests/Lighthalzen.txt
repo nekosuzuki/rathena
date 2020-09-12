@@ -26,6 +26,10 @@ lighthalzen,194,161,3	script	Bounty Board 81-100#lz1	837,{
 		1692,	62748,	179775,		202050,	// BREEZE
 		1627,	62749,	190125,		213975;	// ANOPHELES
 	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 81 && BaseLevel <= 100" );
+	end;
 }
 
 lighthalzen,192,161,3	script	Bounty Board 101-150#lz2	837,{
@@ -34,6 +38,10 @@ lighthalzen,192,161,3	script	Bounty Board 101-150#lz2	837,{
 		1134,	62751,	218700,		164025,	// KOBOLD_2
 		1135,	62752,	205425,		154125,	// KOBOLD_3
 		1282,	62753,	243000,		294750;	// KOBOLD_ARCHER
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 101 && BaseLevel <= 150" );
 	end;
 }
 
@@ -46,6 +54,10 @@ lighthalzen,190,161,3	script	Bounty Board 121-175#lz3	837,{
 		1653,	62758,	573075,		531000,	// WHIKEBAIN
 		1656,	62759,	573975,		481050,	// KAVAC
 		1652,	62760,	588510,		501750;	// YGNIZEM
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 121 && BaseLevel <= 175" );
 	end;
 }
 
@@ -64,5 +76,9 @@ lighthalzen,188,162,3	script	Bounty Board 141#lz4	837,{
 		2224,	62771,	2889450,	2228625,	// CHEN
 		2222,	62772,	2969550,	2596500,	// FLAMEL
 		2221,	62773,	3641175,	2706075;	// RANDEL
+	end;
+
+OnInit:
+	questinfo( QTYPE_QUEST, QMARK_YELLOW, "BaseLevel >= 141" );
 	end;
 }
