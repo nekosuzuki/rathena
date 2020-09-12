@@ -21,23 +21,25 @@
 
 //0,20571,6500
 
-0,5208,2000	//rideword hat
-0,5388,500	//snake head
-0,18657,400	//Pegasus Ear Wings
-0,5259,700	//Elephant Hat
-0,5359,400	//Ship Captain Hat
-0,5403,300	//Fish in mouth
-0,8800001,400
-0,7700001,5
-0,17314,200
-0,17104,500
-0,6290,75
+
+0,14613,290	//RWC2012scroll
+0,43255,290	//Eragon Egg
+0,8800001,400	//EternalWinterscroll
+0,16770,200	//Silvervine10Box
 
 
 
 
-1,43255,290	//Eragon Egg
-1,23216,1500
+
+
+
+1,23216,1500	//VIP
+1,6291,50	//Enriched Elu
+1,6292,50	//Enriched Ori
+1,17731,5000	//EnrichElu100
+1,17730,5000	//EnrichOri100
+1,17104,500	//HD Ori 50
+
 
 
 3,1267,400	//Infiltrator_Box1
@@ -61,6 +63,12 @@
 
 
 
+3,5208,2000	//rideword hat
+3,5388,500	//snake head
+3,18657,400	//Pegasus Ear Wings
+3,5259,700	//Elephant Hat
+3,5359,400	//Ship Captain Hat
+3,5403,300	//Fish in mouth
 3,5267,500	//	Sahkkat_Box1
 3,5268,500	//	Lord_Circlet_Box1
 3,2686,500	//	Elven_Ears_Box1
@@ -159,7 +167,8 @@
 
 
 
-
+5,7700001,5	//EternalTonic
+5,17314,200	//WingofMistress
 5,12202,5	//Str_Dish
 5,12203,5	//Agi_Dish
 5,12204,5	//Int_Dish
@@ -168,6 +177,10 @@
 5,12207,5	//Vit_Dish
 5,12208,40	//Battle_M
 5,14592,40	//Job_M
+5,14156,400	//Battle_M_Box
+5,13990,400	//Job_M_Box
+5,14157,400	//Insurance_Box
+5,14158,400	//Bubble_Gum_Box
 5,12209,40	//Insuranc
 5,12210,40	//Bubble_G
 5,12211,5	//Kafra_Ca
@@ -200,10 +213,10 @@
 
 
 
+7,6290,75	//Hairstyle
+7,16555,100
+7,7776,50
 
-0,16555,100
-0,7776,50
-0,14156,400
 
 
 
