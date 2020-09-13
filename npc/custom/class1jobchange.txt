@@ -321,6 +321,7 @@ function	Job_Change	{
 			callfunc "F_GetPlatinumSkills";
 		if (.GetJobEquip)
 			Get_Job_Equip();
+		if (!countitem(6124) && (Class == Job_Ranger || Class == Job_Ranger_T || Class == Job_Baby_Ranger)) getitem 6124,1;
 	}
 	close; // Always closes after the change
 }
