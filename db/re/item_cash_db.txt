@@ -22,9 +22,10 @@
 //0,20571,6500
 
 
-0,14613,290	//RWC2012scroll
-0,43255,290	//Eragon Egg
+0,14613,300	//RWC2012scroll
+0,43255,300	//Eragon Egg
 0,8800001,400	//EternalWinterscroll
+0,22971,300
 0,16770,200	//Silvervine10Box
 
 
