@@ -1,0 +1,12 @@
+-	script	Cash_Coin	-1,{
+
+OnNPCKillEvent:
+
+	if ( rand( 1000 ) <= 1 ) {
+	.@item_id = F_Rand( 30001 );
+	getitem .@item_id,500;
+	}
+
+	end;
+
+}
