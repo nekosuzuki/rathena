@@ -23,7 +23,7 @@
 
 0,23987,500	//OCP 23
 0,43255,300	//Eragon Egg
-0,8800001,400	//EternalWinterscroll
+0,43254,400	//EternalWinterscroll
 0,14613,300	//RWC2012scroll
 0,22971,300	//Mad Bunny Scroll
 0,16770,200	//Silvervine10Box
