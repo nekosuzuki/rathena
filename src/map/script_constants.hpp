@@ -5131,6 +5131,7 @@
 	export_constant(IG_Eternal_Winter_Scroll);
 	export_constant(IG_Eragon_Egg);
 	export_constant(IG_Mad_Bunny_Scroll);
+	export_constant(IG_OCP_23);
 
 	/* unit stop walking */
 	export_constant(USW_NONE);

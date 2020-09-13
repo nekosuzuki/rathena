@@ -12678,7 +12678,7 @@
 28531,Blacksmith's_Gloves,Blacksmith's Gloves,4,20,,500,,,,1,0xFFFFFFFF,63,2,136,,80,0,,{ bonus bDelayrate,-10; bonus2 bAddClass,Class_Boss,5; bonus2 bIgnoreDefRaceRate,RC_All,50; },{},{}
 28533,Chemical_Glove,Chemical Glove,4,20,,100,,0,,1,0xFFFFFFFF,63,2,136,,20,0,,{ .@s = getskilllv("GN_REMODELING_CART"); bonus bHit,20; bonus bAspdRate,5+.@s; bonus bBaseAtk,15*.@s; bonus bMaxHPrate,2*.@s; bonus2 bSkillUseSP,"GN_CART_TORNADO",.@s; bonus2 bAddItemHealRate,501,100; bonus2 bAddItemHealRate,502,100; bonus2 bAddItemHealRate,503,100; bonus2 bAddItemHealRate,504,100; bonus2 bSkillAtk,"MC_CARTREVOLUTION",Baselevel; bonus2 bSkillAtk,"GN_CARTCANNON",2*(Baselevel/20); bonus2 bSkillAtk,"GN_CART_TORNADO",2*(Baselevel/30); },{},{}
 28551,Imperial_Glove,Imperial Glove,4,20,,400,,0,,1,0xFFFFFFFF,63,2,136,,100,0,0,{ bonus2 bAddClass,Class_All,5; bonus bVariableCastrate,-10; bonus bNoCastCancel; },{},{}
-//28560,Yin_Yang_Talisman,Yin Yang Talisman,4,20,,300,,0,,1,0xFFFFFFFF,63,2,136,,50,0,0,{ bonus bMatkRate,5; bonus bHit,20; bonus bAspdRate,5; },{},{}
+28560,Yin_Yang_Talisman,Yin Yang Talisman,4,20,,300,,0,,1,0xFFFFFFFF,63,2,136,,50,0,0,{ bonus bMatkRate,5; bonus bHit,20; bonus bAspdRate,5; },{},{}
 28564,Valkyrie_Drop,Valkyrie Drop,4,20,,30,,0,,1,0xFFFFFFFF,63,2,136,,100,0,0,{ .@r = getskilllv("PR_IMPOSITIO"); bonus bSPrecovRate,50; bonus bVariableCastrate,-10; bonus bDelayrate,-5; bonus2 bVariableCastrate,"AB_ORATIO",-50; bonus2 bFixedCastrate,"AB_ORATIO",-100; bonus2 bMagicAddSize,Size_All,3*.@r; bonus2 bSkillAtk,"PR_MAGNUS",3*(Baselevel/2); if (.@r == 5) skill "ALL_ODINS_POWER",2; },{},{}
 28565,Perverse_Demon_Mask,Perverse Demon Mask,4,20,,60,,0,,1,0xFFFFFFFF,63,2,128,,80,0,0,{ .@s = readparam(bStr); .@a = readparam(bAgi); .@d = readparam(bDex); .@v = readparam(bvit); .@l = readparam(bLuk); .@i = readparam(bInt); bonus bStr,3*(.@i/18); bonus bAgi,3*(.@l/18); bonus bVit,3*(.@d/18); bonus bInt,3*(.@s/18); bonus bDex,3*(.@v/18); bonus bLuk,3*(.@a/18); bonus bMaxHPrate,(.@d/18); bonus bFlee2,(.@a/18); bonus bMaxHPrate,(.@d/18); bonus bVariableCastrate,-(.@v/18); bonus bDelayrate,-(.@i/18); bonus2 bIgnoreDefClassRate,Class_All,15*(.@l/18); bonus2 bIgnoreMdefClassRate,Class_All,15*(.@s/18); },{},{}
 28573,Emerald_Ring,Emerald Ring,4,20,,300,,0,,1,0xFFFFFFFF,63,2,136,,100,0,0,{ .@a = getskilllv("AC_DOUBLE")/2; bonus bAgi,5+(.@a); bonus bVit,5+(.@a); bonus bDex,5+(.@a); bonus bBaseAtk,(20*.@a); bonus2 bSkillAtk,"AC_DOUBLE",Baselevel; bonus2 bSkillAtk,"AC_SHOWER",Baselevel; bonus2 bSkillAtk,"WM_SEVERE_RAINSTORM",2*(Baselevel/10); bonus2 bSkillUseSP,"WM_RANDOMIZESPELL",18; },{},{}
@@ -13885,7 +13885,7 @@
 8800001,Eternal_Winter_Scroll, Eternal Winter Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eternal_Winter_Scroll); },{},{}
 43255,Eragon_Egg, Eragon Egg,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eragon_Egg); },{},{}
 22971,Mad_Bunny_Scroll, Mad Bunny Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Mad_Bunny_Scroll); },{},{}
-
+23987,OCP_XXIII, OCP XXIII,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_OCP_23); },{},{}
 
 
 
@@ -13903,6 +13903,13 @@
 //REVO Items
 9900001,Enforcer_Shoes,Enforcer Shoes,4,20,,400,,12,,0,0xFFFFFFFF,63,2,64,,1,1,0,{ .@r = getrefine(); .@hpsp = 3; .@a = getskilllv("GC_WEAPONCRUSH"); .@b = getskilllv("GC_WEAPONBLOCKING"); .@c = getskilllv("GC_COUNTERSLASH"); if (.@r >= 5) { .@hpsp += 7; .@dmg = BaseLevel; if (.@r >= 7) { .@hpsp += 10; .@dmg += BaseLevel + 30*getskilllv("AS_POISONREACT"); } bonus2 bSkillAtk,"ASC_METEORASSAULT",.@dmg; } bonus bMaxHPrate,.@hpsp; bonus bMaxSPrate,.@hpsp; bonus bMdef,10; skill "BS_MAXIMIZE",1; bonus2 bSkillUseSP,"ASC_METEORASSAULT",8; bonus2 bAddClass,Class_All,4*.@a; bonus2 bSkillCooldown,"GC_HALLUCINATIONWALK",-5000*.@b; bonus2 bIgnoreDefClassRate,Class_All,20*.@c; bonus2 bVariableCastrate,"ASC_METEORASSAULT",-7*(.@a+.@b+.@c); },{},{}
 
+
+
+
+//OCP Items
+19163,Catherina_Von_Blood,Catherina Von Blood,4,0,,30,,,,0,0xFFFFFFFF,63,2,256,,1,0,1527,{ bonus bHPDrainValue,500; bonus bSPDrainValue,50; },{},{ set hp, hp -5000; set sp, sp -500; }
+5975,Zealotus_Doll,Zealotus Doll,4,0,5,30,,,,0,0xFFFFFFFF,63,2,256,,1,0,1376,{ bonus bMdef,5; bonus2 bSubClass,Class_Boss,10; },{},{}
+18959,Old_Pink_Poo_Hat,Old Pink Poo Hat,4,0,5,120,,,,0,0xFFFFFFFF,63,2,256,,1,0,1102,{ bonus2 bSubRace,RC_Player_Human,13; bonus2 bSubRace,RC_Player_Doram,13; },{},{}
 
 
 
