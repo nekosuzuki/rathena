@@ -1845,18 +1845,6 @@ IG_Enchant_Stone_Box15,25500,37	// WanderMinstrelStone_Lower
 
 
 
-//IG_Eternal_Winter_Scroll
-IG_Eternal_Winter_Scroll,15204,2 // Abyss Dress
-IG_Eternal_Winter_Scroll,22134,2 // Enforcer Shoes
-IG_Eternal_Winter_Scroll,15420,2 // Icefall Dress
-IG_Eternal_Winter_Scroll,15352,2 // Nature Dress
-IG_Eternal_Winter_Scroll,19426,2 // KOSC
-IG_Eternal_Winter_Scroll,2589,2 // FAW
-IG_Eternal_Winter_Scroll,2576,2 // Heroic
-IG_Eternal_Winter_Scroll,6635,50 // BSB
-IG_Eternal_Winter_Scroll,12103,50 // BB
-IG_Eternal_Winter_Scroll,12412,50 // HE_GUM
-
 
 
 
