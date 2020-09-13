@@ -13882,7 +13882,7 @@
 
 
 // Kashuay's Box
-8800001,Eternal_Winter_Scroll, Eternal Winter Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eternal_Winter_Scroll); },{},{}
+43254,Eternal_Winter_Scroll, Eternal Winter Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eternal_Winter_Scroll); },{},{}
 43255,Eragon_Egg, Eragon Egg,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Eragon_Egg); },{},{}
 22971,Mad_Bunny_Scroll, Mad Bunny Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Mad_Bunny_Scroll); },{},{}
 23987,OCP_XXIII, OCP XXIII,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_OCP_23); },{},{}
