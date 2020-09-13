@@ -4712,10 +4712,10 @@ IG_Eragon_Egg,12999,1000,1,1,0,0,0	//Dead Branch Box
 
 //Mad Bunny Scroll
 IG_Mad_Bunny_Scroll,28901,30,1,1,1,0,0	//MadBunnySpecial
-IG_Mad_Bunny_Scroll,6234,150,1,1,1,0,0	//7Armor
-IG_Mad_Bunny_Scroll,6230,150,1,1,1,0,0	//7Weapon
-IG_Mad_Bunny_Scroll,6235,150,1,1,1,0,0	//7Headgear
-IG_Mad_Bunny_Scroll,6457,50,1,1,1,0,0	//Safeto10
+IG_Mad_Bunny_Scroll,6234,10,1,1,1,0,0	//7Armor
+IG_Mad_Bunny_Scroll,6230,10,1,1,1,0,0	//7Weapon
+IG_Mad_Bunny_Scroll,6235,10,1,1,1,0,0	//7Headgear
+IG_Mad_Bunny_Scroll,6457,5,1,1,1,0,0	//Safeto10
 IG_Mad_Bunny_Scroll,22702,1000,1,1,0,0,0	//StrSoul
 IG_Mad_Bunny_Scroll,22703,1000,1,1,0,0,0	//AgiSoul
 IG_Mad_Bunny_Scroll,22704,1000,1,1,0,0,0	//VitSoul
