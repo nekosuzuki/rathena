@@ -4724,3 +4724,20 @@ IG_Mad_Bunny_Scroll,22706,1000,1,1,0,0,0	//DexSoul
 IG_Mad_Bunny_Scroll,22707,1000,1,1,0,0,0	//LukSoul
 
 
+
+
+
+//OCP_23
+IG_OCP_23,19163,30,1,1,1,0,0	//CVB
+IG_OCP_23,5975,50,1,1,0,0,0	//Zealotus Doll
+IG_OCP_23,18959,50,1,1,0,0,0	//Pink Poo
+IG_OCP_23,5967,10,1,1,1,0,0	//Flying Galapago
+IG_OCP_23,19095,50,1,1,0,0,0	//Happy Balloon
+IG_OCP_23,15384,5,1,1,1,0,0	//Ritual Robes
+IG_OCP_23,22017,70,1,1,0,0,0	//Fishermans Shoes
+IG_OCP_23,32222,5,1,1,1,0,0	//Brooch of hero
+IG_OCP_23,28560,20,1,1,1,0,0	//Ying Yang Talisman
+IG_OCP_23,2984,70,1,1,0,0,0	//Saehrimnir Gloves
+IG_OCP_23,14545,1000,6,1,0,0,0	//BMX3
+IG_OCP_23,12103,1000,5,1,0,0,0	//BB
+IG_OCP_23,6635,1000,8,1,0,0,0	//BSB

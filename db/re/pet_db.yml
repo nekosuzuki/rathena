@@ -949,7 +949,12 @@ Body:
     SpecialPerformance: false
     Script: >
       .@i = getpetinfo(PETINFO_INTIMATE);
-      
+      if (isequipped(19163)) {
+         bonus2 bHPRegenRate,500,5000; bonus2 bSPRegenRate,20,5000;
+          if (.@i >= PET_INTIMATE_LOYAL) {
+             bonus2 bHPRegenRate,500,5000; bonus2 bSPRegenRate,20,5000;
+          } 
+      } 
       if (.@i >= PET_INTIMATE_LOYAL) {
         bonus2 bHPDrainRate,30,5;
         bonus bMaxHPrate,1;
