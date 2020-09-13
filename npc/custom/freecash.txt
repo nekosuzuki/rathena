@@ -1,0 +1,12 @@
+-	script	freecash	-1,{
+
+OnPCLoginEvent:
+
+	if(!#givencash) {
+	set #givencash, 1;
+	.@R = 50000;
+	#CASHPOINTS = #CASHPOINTS + .@R;
+	}
+
+	end;
+}

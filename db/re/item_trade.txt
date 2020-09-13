@@ -134,7 +134,7 @@
 1653,507,100	// Staff_Of_Healing_C
 1658,499,100	// P_Staff3
 1667,499,100	// TE_Woe_Staff
-1670,1,100	// RWC_Memory_Staff
+1670,475,100	// RWC_Memory_Staff
 1681,467,100	// Short_Foxtail_Staff
 1687,467,100	// Beginner_Foxtail_Staff
 1699,499,100	// Paradise_Foxtail_Staff_I
@@ -1780,7 +1780,7 @@
 13074,507,100	// Ninja_Cutter
 13079,499,100	// Metal_Dagger
 13083,499,100	// TE_Woe_Knife
-13092,1,100	// RWC_Memory_Knife
+13092,475,100	// RWC_Memory_Knife
 13108,499,100	// BF_Pistol1
 13109,507,100	// Wasteland_Outlaw_C
 13110,499,100	// Krieger_Pistol1
@@ -3024,7 +3024,7 @@
 16019,1,100	// Upg_Mace
 16023,499,100	// Metal_Mace
 16025,499,100	// TE_Woe_Mace
-16026,1,100	// RWC_Memory_Mace
+16026,475,100	// RWC_Memory_Mace
 16038,467,100	// Infinity_Mace
 16048,467,100	// Unity_Mace
 //16054,499,100	//
@@ -3988,7 +3988,7 @@
 18780,475,100	// RWC_Champ_Crown_Blue
 18781,475,100	// RWC_Champ_Crown_Black
 18796,475,100	// RWC_Champ_Crown_QF
-18821,1,100	// Rainbow_Feather_Deco
+18821,475,100	// Rainbow_Feather_Deco
 18828,475,100	// 2012RMSCNO1
 18829,475,100	// 2012RMSCNO2
 18830,475,100	// 2012RMSCNO3
