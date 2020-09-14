@@ -2766,7 +2766,7 @@ IG_RWC_Scroll_2012,6228,5,1,1,1,0,0	// 1x Guarantee_Weapon_9Up
 IG_RWC_Scroll_2012,12549,700,1,1,0,0,0	// 1x White_Slim_Pot_Box2
 IG_RWC_Scroll_2012,12550,700,1,1,0,0,0	// 1x Poison_Bottle_Box2
 IG_RWC_Scroll_2012,12210,1000,5,1,0,0,0	// 1x Bubble_Gum_Box5
-IG_RWC_Scroll_2012,6024,1,1,1,1,0,0	// 1x 17Carat_Dia
+//IG_RWC_Scroll_2012,6024,1,1,1,1,0,0	// 1x 17Carat_Dia
 IG_RWC_Scroll_2012,12208,1000,5,1,0,0,0	// 1x Battle_Manual_Box5
 IG_RWC_Scroll_2012,12698,50,1,1,0,0,0	// 1x Old_C_Album_Weapon
 IG_RWC_Scroll_2012,12695,50,1,1,0,0,0	// 1x Old_C_Album_Acc
