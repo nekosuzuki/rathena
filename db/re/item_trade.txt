@@ -437,7 +437,7 @@
 5280,507,100	// Magestic_Goat_C
 5281,507,100	// Deviruchi_Cap_C
 5283,1,100	// Chick_Hat
-5286,507,100	// Pecopeco_Hairband
+5286,475,100	// Pecopeco_Hairband
 5288,507,100	// Red_Glasses
 5293,507,100	// Ramen_Hat
 5294,507,100	// Whisper_Mask
