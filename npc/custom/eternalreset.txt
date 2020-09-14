@@ -13,13 +13,13 @@
 //============================================================
 moc_para01,15,35,4	script	Mesmerist	124,{
 	//	 		Skills,	Stats,	Both,	Limit
-	setarray .@Reset,	10000000,	10000000,	15000000,	0;
-	mes "[Reset Girl]";
+	setarray .@Reset,	100,	100,	150,	0;
+	mes "[Mesmerist]";
 	if(.@Reset[3] && reset_limit > .@Reset[3]) {
 		mes "Sorry you can only reset "+callfunc("F_InsertPlural",.@Reset[3],"time")+" in your life.";
 		close;
 	}
-	mes "I am the Reset Girl.";
+	mes "I am the Mesmerist.";
 	mes "Reset Stats: "+ callfunc("F_InsertComma",.@Reset[1]) +"z";
 	mes "Reset Skills: "+ callfunc("F_InsertComma",.@Reset[0]) +"z";
 	mes "Reset Both: "+ callfunc("F_InsertComma",.@Reset[2]) +"z";
