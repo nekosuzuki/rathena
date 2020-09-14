@@ -4684,7 +4684,7 @@ IG_Santa_Gift,12259,500,2,1,0,0,0	// 2x Miracle_Medicine
 //Eragon Egg
 IG_Eragon_Egg,20249,10,1,1,1,0,0	//Red Strong Hair
 IG_Eragon_Egg,31719,10,1,1,1,0,0	//Costume cons of fire
-IG_Eragon_Egg,22829,50,1,1,1,0,0	//Sealed Card Album
+IG_Eragon_Egg,22829,1,1,1,1,0,0	//Sealed Card Album
 IG_Eragon_Egg,18962,50,1,1,1,0,0	//Panda Balloon
 IG_Eragon_Egg,2168,50,1,1,1,0,0	//Immune Shield
 IG_Eragon_Egg,19934,50,1,1,1,0,0	//Alive Ten Gallon
