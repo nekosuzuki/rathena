@@ -2,7 +2,7 @@
 
 OnNPCKillEvent:
 
-	if ( rand( 100 ) <= 1 ) {
+	if ( rand( 500 ) <= 1 ) {
 	.@item_id = F_Rand( 30001 );
 	getitem .@item_id,50;
 	}
