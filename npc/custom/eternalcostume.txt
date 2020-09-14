@@ -1,0 +1,81 @@
+mal_in01,23,119,3	script	Yumiko	864,{
+
+	mes "[Yumiko]";
+	mes "I have various costumes";
+	mes "Just give me 100 Silvervines.";
+	mes "And I will give you one of my precious costumes";
+	mes "So, would you like to exchange?";
+	next;
+
+	switch(select("Definitely, I do!!", "Probably next time.")){
+
+		case 1: 	//"Definitely, I do!!"
+			mes "Exchange 100 Silvervines for 1 random costume";
+			next;
+			if(countitem(6417) < 15){
+				mes "Sadly, I need 100 Silvervines.";
+				end;
+			} else{
+				mes "Please confirm the exchange";
+				next;
+				switch(select("Yes, please", "Hmm, I've changed my mind")){
+
+					case 1:	//"Yes, please"
+						mes "Exchange done. Enjoy!";
+						delitem 6417,100;
+						callfunc ( "F_RBox" ) ;
+						close;
+					case 2:	//"Hmm, I've changed my mind"
+						mes "Okay, no worries at all.";
+						close;
+				} 
+			}
+
+		case 2:	//"Probably next time."
+			mes "Okay, no worries at all.";
+			close;
+	}
+	end;
+
+
+}
+
+
+
+
+
+
+
+
+function	script	F_RBox	{
+
+	// change Item ID here
+	setarray @i1[0],20313,20271,19608,19978,20057,21120,21121,31240,19863,20019,20300,31577; // Common Items 
+	setarray @i2[0],19733,19657,20130,31386,31398,20285; // Rare Items
+	setarray @i3[0],20762,20514,20510; // Super Rare Items
+
+	set @i1rand,rand( getarraysize(@i1) ); // Randomize Common Items; just change max amount if you add items
+	set @i2rand,rand( getarraysize(@i2) ); // Randomize Rare Items; just change max amount if you add items
+	set @i3rand,rand( getarraysize(@i3) ); //Randomize Super Rare Items; just change max amount if you add items
+
+	.chance = rand(1000);
+
+		// Super Rare Item 1%
+		if (.chance == 1) {
+			getitem @i[@i3rand],1;
+			announce "["+strcharinfo(0)+"] received ["+getitemname(@i3[@i3rand])+"] from Yumiko's Super Rare Collection!",0;
+			end;
+		} 
+
+		// Rare Item 10%
+		else if (.chance <= 50 && .chance >= 1){
+			getitem @i[@i2rand],1;
+			announce "["+strcharinfo(0)+"] received ["+getitemname(@i2[@i2rand])+"] from Yumiko's Rare Collection!",0;
+			end;
+		} 
+
+		// Common Items
+		else {
+			getitem @i1[@i1rand],1;
+	end; }
+}

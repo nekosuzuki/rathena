@@ -13927,6 +13927,9 @@
 31803,C_Cons_Of_Wind,Costume Cons of Wind,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,0,1924,{},{},{}
 21118,C_Rabbit_Winged_Robe,Costume Rabbit Winged Robe,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,0,1926,{},{},{}
 21119,C_Rabbit_Family_Balloon,Costume Rabbit Family Balloon,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,0,1809,{},{},{}
+21120,C_Hat_of_Bundle,Costume Hat of Bundle,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,108,{},{},{}
+21121,C_Aviator_Hat,Costume Aviator Hat,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,972,{},{},{}
+
 
 
 
