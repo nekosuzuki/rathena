@@ -1144,6 +1144,11 @@ sch_gld,340,80,7	script	Repairman#sch_gld	86,{
 	end;
 }
 
+auction_03,166,49,4	script	Repairman#sch_gld	86,{
+	callfunc "repairmain","Repairman";
+	end;
+}
+
 // Equipment Repair Function
 //============================================================
 function	script	repairmain	{
