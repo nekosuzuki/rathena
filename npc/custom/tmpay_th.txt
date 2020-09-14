@@ -96,15 +96,15 @@ OnInit:
 	while (1)
 	{
 		query_sql "SELECT `card_id`,`amount`,`user_id` FROM `truemoney` WHERE `status` = 1 ORDER BY RAND()",.card_id,.card_amount,.card_account_id;
-		sleep 500;
+		sleep2 500;
 		if (getarraysize(.card_id) > 0) {
 			for (set .i,0; .i < getarraysize(.card_id); set .i,.i+1) {
 				if(.card_amount[.i] > 0 && attachrid(.card_account_id[.i]) == 1)
 				{
-					dispbottom "[Refill Center System] You received " + .card_cash_amount[.card_amount[.i]] + " Cash";
+					dispbottom "[Refill Center System] คุณได้รับ " + .card_cash_amount[.card_amount[.i]] + " Cash";
 					set #CASHPOINTS,(#CASHPOINTS + .card_cash_amount[.card_amount[.i]]);
 					set #CASHBONUS,(#CASHBONUS + .card_cash_amount[.card_amount[.i]]);
-					dispbottom "[Refill Center System] You have Cash Bonus in total of " + #CASHBONUS + " Cash";
+					dispbottom "[Refill Center System] คุณมี Cash Bonus สะสม " + #CASHBONUS + " Cash";
 
 					for(set .@idx, 1; .@idx <= 3; set .@idx, .@idx + 1)
 					{
@@ -113,7 +113,7 @@ OnInit:
 						if(getd(.@card_item_id_name$) > 0 && getd(.@card_item_amount$) > 0)
 						{
 							getitem getd(.@card_item_id_name$),getd(.@card_item_amount$);
-							dispbottom "[Refill Center System] You received Item " + getitemname(getd(.@card_item_id_name$)) + " amount " + getd(.@card_item_amount$) + " eA";
+							dispbottom "[Refill Center System] คุณได้รับ Item " + getitemname(getd(.@card_item_id_name$)) + " จำนวน " + getd(.@card_item_amount$) + " eA";
 						}
 					}
 
@@ -121,8 +121,8 @@ OnInit:
 					{
 						set #CASHBONUS,(#CASHBONUS - .cash_bonus_minimum);
 						getitem .cash_bonus_item_id,.cash_bonus_item_amount;
-						dispbottom "[Refill Center System] You received Bonus Item " + getitemname(.cash_bonus_item_id) + " amount " + .cash_bonus_item_amount + " eA";
-						dispbottom "[Refill Center System] You have Cash Bonus in total of " + #CASHBONUS + " Cash";
+						dispbottom "[Refill Center System] คุณได้รับ Bonus Item " + getitemname(.cash_bonus_item_id) + " จำนวน " + .cash_bonus_item_amount + " eA";
+						dispbottom "[Refill Center System] คุณมี Cash Bonus สะสม " + #CASHBONUS + " Cash";
 					}
 					query_sql "UPDATE `truemoney` SET `status` = 2 WHERE `card_id` = " + .card_id[.i];
 					detachrid;
