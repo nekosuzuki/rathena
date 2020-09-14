@@ -476,7 +476,7 @@ mal_in01,20,124,5	script	Designer Heidam#eventhat	4_CAT_SAILOR5,{
 					else {
 						mes "Exchange Completed.";
 						delitem .@id, 1;
-						getitem 22826, 1;
+						getitem .@box_list[.@i], 1;
 					}
 					mes "Let me check you for another item to exchange...";
 					next;
