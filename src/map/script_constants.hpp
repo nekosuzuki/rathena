@@ -5132,6 +5132,7 @@
 	export_constant(IG_Eragon_Egg);
 	export_constant(IG_Mad_Bunny_Scroll);
 	export_constant(IG_OCP_23);
+	export_constant(IG_OCP_1);
 
 	/* unit stop walking */
 	export_constant(USW_NONE);

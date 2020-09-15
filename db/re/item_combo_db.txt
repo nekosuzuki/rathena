@@ -1452,4 +1452,5 @@
 
 18959:4042,{ bonus2 bResEff,Eff_Freeze,10000; bonus3 bAddEff,Eff_Freeze,2000,ATF_WEAPON; bonus3 bAddEff,Eff_Freeze,2000,ATF_MAGIC; }
 18959:4009:2402,{ bonus bMaxHPrate,4; bonus bMaxSPrate,4; .@r = getequiprefinerycnt(EQI_SHOES); bonus bMaxHPrate,2*.@r; bonus bMaxSPrate,2*.@r; }
+2743:2192,{ bonus2 bSkillHeal,AL_HEAL,10; bonus2 bSkillHeal,AB_CHEAL,10; bonus2 bSkillHeal,AB_HIGHNESSHEAL,10; bonus2 bSkillHeal,PR_SANCTUARY,10; bonus2 bSkillHeal,AM_POTIONPITCHER,10; }
 
