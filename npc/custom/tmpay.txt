@@ -119,7 +119,6 @@ OnInit:
 
 					if(#CASHBONUS >= .cash_bonus_minimum && .cash_bonus_item_id > 0 && .cash_bonus_item_amount > 0)
 					{
-						set #CASHBONUS,(#CASHBONUS - .cash_bonus_minimum);
 						getitem .cash_bonus_item_id,.cash_bonus_item_amount;
 						dispbottom "[Refill Center System] You received Bonus Item " + getitemname(.cash_bonus_item_id) + " amount " + .cash_bonus_item_amount + " eA";
 						dispbottom "[Refill Center System] You have Cash Bonus in total of " + #CASHBONUS + " Cash";
