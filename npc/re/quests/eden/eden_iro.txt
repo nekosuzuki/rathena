@@ -959,25 +959,11 @@ auction_03,152,42,4	script	Kafra Employee#annex	117,{
 	mes "[Kafra Employee]";
 	mes "What would you like to do?";
 	next;
-	switch(select("Access Mail:Storage:Cancel")) {
+	switch(select("Storage:Cancel")) {
 	case 1:
-		if (Zeny < 130) {
-			mes "[Kafra Employee]";
-			mes "I am sorry, but you do not have enough money.";
-			mes "To use the mailbox service,";
-			mes "you are required to pay 130 zeny.";
-			close;
-		}
-		mes "[Kafra Employee]";
-		mes "Thank you for using the Kafra Service.";
-		set Zeny, Zeny - 130;
-		close2;
-		openmail;
-		end;
-	case 2:
 		callfunc "F_KafStor",0,1200,0;
 		end;
-	case 3:
+	case 2:
 		mes "[Kafra Employee]";
 		mes "Thank you for using the Kafra Service.";
 		close;
