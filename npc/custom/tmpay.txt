@@ -54,8 +54,8 @@ OnInit:
 
 	//จำนวน Item ID และจำนวน Item สำหรับบัตร 300 บาท (ตั้งค่าเป็น 0 ทั้งคู่ หากไม่ต้องการแจก Item สำหรับบัตรราคานี้)
 	//Item #1
-	set .card_item_id_4[1],0;
-	set .card_item_amount_4[1],0;
+	set .card_item_id_4[1],14003;
+	set .card_item_amount_4[1],5;
 	//Item #2
 	set .card_item_id_4[2],0;
 	set .card_item_amount_4[2],0;
@@ -92,28 +92,6 @@ OnInit:
 	//Item ที่จะได้รับหากลูกค้าเติมเงินสะสมถึงจำนวนที่กำหนด (ตั้งค่าเป็น 0 ทั้งคู่ หากไม่ต้องการแจก Item)
 	set .cash_bonus_item_id,2576;
 	set .cash_bonus_item_amount,1;
-	
-	
-	
-	//จำนวน CASH BONUS สะสมที่จะได้รับรางวัล Royal Guard Necklace
-	set .cash_bonus_minimum1,3500;
-	//Item ที่จะได้รับหากลูกค้าเติมเงินสะสมถึงจำนวนที่กำหนด (ตั้งค่าเป็น 0 ทั้งคู่ หากไม่ต้องการแจก Item)
-	set .cash_bonus_item_id1,19246;
-	set .cash_bonus_item_amount1,1;
-
-
-	//จำนวน CASH BONUS สะสมที่จะได้รับรางวัล Shiba Black Set
-	set .cash_bonus_minimum2,4000;
-	//Item ที่จะได้รับหากลูกค้าเติมเงินสะสมถึงจำนวนที่กำหนด (ตั้งค่าเป็น 0 ทั้งคู่ หากไม่ต้องการแจก Item)
-	set .cash_bonus_item_id2,23253;
-	set .cash_bonus_item_amount2,1;
-	
-	
-	//จำนวน CASH BONUS สะสมที่จะได้รับรางวัล Eragon Egg
-	set .cash_bonus_minimum3,4500;
-	//Item ที่จะได้รับหากลูกค้าเติมเงินสะสมถึงจำนวนที่กำหนด (ตั้งค่าเป็น 0 ทั้งคู่ หากไม่ต้องการแจก Item)
-	set .cash_bonus_item_id3,43255;
-	set .cash_bonus_item_amount3,1;
 
 
 
@@ -146,6 +124,7 @@ OnInit:
 
 					if(#CASHBONUS >= .cash_bonus_minimum && .cash_bonus_item_id > 0 && .cash_bonus_item_amount > 0)
 					{
+						set #CASHBONUS,(#CASHBONUS - .cash_bonus_minimum);
 						getitem .cash_bonus_item_id,.cash_bonus_item_amount;
 						dispbottom "[Refill Center System] You received Bonus Item " + getitemname(.cash_bonus_item_id) + " amount " + .cash_bonus_item_amount + " eA";
 						dispbottom "[Refill Center System] You have Cash Bonus in total of " + #CASHBONUS + " Cash";
