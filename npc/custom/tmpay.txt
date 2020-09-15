@@ -92,6 +92,14 @@ OnInit:
 	//Item ที่จะได้รับหากลูกค้าเติมเงินสะสมถึงจำนวนที่กำหนด (ตั้งค่าเป็น 0 ทั้งคู่ หากไม่ต้องการแจก Item)
 	set .cash_bonus_item_id,2576;
 	set .cash_bonus_item_amount,1;
+	
+	
+	
+	//จำนวน CASH BONUS สะสมที่จะได้รับรางวัล
+	set .cash_bonus_minimum1,3500;
+	//Item ที่จะได้รับหากลูกค้าเติมเงินสะสมถึงจำนวนที่กำหนด (ตั้งค่าเป็น 0 ทั้งคู่ หากไม่ต้องการแจก Item)
+	set .cash_bonus_item_id1,19246;
+	set .cash_bonus_item_amount1,1;
 
 	while (1)
 	{
@@ -118,6 +126,12 @@ OnInit:
 					}
 
 					if(#CASHBONUS >= .cash_bonus_minimum && .cash_bonus_item_id > 0 && .cash_bonus_item_amount > 0)
+					{
+						getitem .cash_bonus_item_id,.cash_bonus_item_amount;
+						dispbottom "[Refill Center System] You received Bonus Item " + getitemname(.cash_bonus_item_id) + " amount " + .cash_bonus_item_amount + " eA";
+						dispbottom "[Refill Center System] You have Cash Bonus in total of " + #CASHBONUS + " Cash";
+					}
+					if(#CASHBONUS >= .cash_bonus_minimum1 && .cash_bonus_item_id1 > 0 && .cash_bonus_item_amount1 > 0)
 					{
 						getitem .cash_bonus_item_id,.cash_bonus_item_amount;
 						dispbottom "[Refill Center System] You received Bonus Item " + getitemname(.cash_bonus_item_id) + " amount " + .cash_bonus_item_amount + " eA";
