@@ -45,6 +45,7 @@
 1,17731,5000	//EnrichElu100
 1,17730,5000	//EnrichOri100
 1,17104,500	//HD Ori 50
+1,17105,500	//HD Elu 50
 
 
 
@@ -191,7 +192,7 @@
 5,12210,40	//Bubble_G
 5,12211,5	//Kafra_Ca
 5,12212,5	//Giant_Fl
-5,12213,400	//Neuraliz
+//5,12213,400	//Neuraliz
 5,12214,20	//Convex_M
 5,12215,5	//Blessing
 5,12216,5	//Inc_Agi_
@@ -219,9 +220,13 @@
 
 
 
-7,6290,75	//Hairstyle
+//7,6290,75	//Hairstyle
 7,16555,100
 7,7776,50
+7,6293,20	//token of s
+7,12922,100	//token of s box
+7,13973,300	//Poison Bottle box
+7,13989,100	//Acid box
 
 
 
