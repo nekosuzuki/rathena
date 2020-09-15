@@ -2768,15 +2768,15 @@ IG_RWC_Scroll_2012,12550,700,1,1,0,0,0	// 1x Poison_Bottle_Box2
 IG_RWC_Scroll_2012,12210,1000,5,1,0,0,0	// 1x Bubble_Gum_Box5
 //IG_RWC_Scroll_2012,6024,1,1,1,1,0,0	// 1x 17Carat_Dia
 IG_RWC_Scroll_2012,12208,1000,5,1,0,0,0	// 1x Battle_Manual_Box5
-IG_RWC_Scroll_2012,12698,50,1,1,0,0,0	// 1x Old_C_Album_Weapon
-IG_RWC_Scroll_2012,12695,50,1,1,0,0,0	// 1x Old_C_Album_Acc
+IG_RWC_Scroll_2012,12698,150,1,1,0,0,0	// 1x Old_C_Album_Weapon
+IG_RWC_Scroll_2012,12695,150,1,1,0,0,0	// 1x Old_C_Album_Acc
 IG_RWC_Scroll_2012,604,1000,3,1,0,0,0	// 3x Branch_Of_Dead_Tree
 IG_RWC_Scroll_2012,12246,20,1,1,1,0,0	// 1x Magic_Card_Album
 IG_RWC_Scroll_2012,1670,150,1,1,1,0,0	// 1x RWC_Memory_Staff
 IG_RWC_Scroll_2012,16026,150,1,1,1,0,0	// 1x RWC_Memory_Mace
 IG_RWC_Scroll_2012,13092,150,1,1,1,0,0	// 1x RWC_Memory_Knife
-IG_RWC_Scroll_2012,18821,10,1,1,1,0,0	// 1x Rainbow_Feather_Deco
-IG_RWC_Scroll_2012,19650,10,1,1,1,0,0	// 1x C_Rainbow_Feather_Deco
+IG_RWC_Scroll_2012,18821,30,1,1,1,0,0	// 1x Rainbow_Feather_Deco
+IG_RWC_Scroll_2012,19650,30,1,1,1,0,0	// 1x C_Rainbow_Feather_Deco
 
 IG_Old_Coin_Pocket,12636,400,1,1,0,0,0	// 1x Malang_Sp_Can
 IG_Old_Coin_Pocket,6081,200,1,1,0,0,0	// 1x Splendide_Coin
@@ -4682,23 +4682,23 @@ IG_Santa_Gift,12259,500,2,1,0,0,0	// 2x Miracle_Medicine
 
 
 //Eragon Egg
-IG_Eragon_Egg,20249,10,1,1,1,0,0	//Red Strong Hair
-IG_Eragon_Egg,31719,10,1,1,1,0,0	//Costume cons of fire
+IG_Eragon_Egg,20249,30,1,1,1,0,0	//Red Strong Hair
+IG_Eragon_Egg,31719,30,1,1,1,0,0	//Costume cons of fire
 IG_Eragon_Egg,22829,1,1,1,1,0,0	//Sealed Card Album
-IG_Eragon_Egg,18962,50,1,1,1,0,0	//Panda Balloon
-IG_Eragon_Egg,2168,50,1,1,1,0,0	//Immune Shield
-IG_Eragon_Egg,19934,50,1,1,1,0,0	//Alive Ten Gallon
-IG_Eragon_Egg,20195,20,1,1,1,0,0	//Costume Scratching Cat
-IG_Eragon_Egg,18893,50,1,1,1,0,0	//Dragon Claw Helm
-IG_Eragon_Egg,5255,30,1,1,1,0,0	//Triple Poring Hat
-IG_Eragon_Egg,5567,30,1,1,1,0,0	//Sinulog Hat
-IG_Eragon_Egg,18510,30,1,1,1,0,0	//Bloody Angel Hair Band
-IG_Eragon_Egg,24075,40,1,1,1,0,0	//Large Shadow Weapon
-IG_Eragon_Egg,24072,40,1,1,1,0,0	//Large Shadow Armor
-IG_Eragon_Egg,24214,40,1,1,1,0,0	//Advanced Shadow Shoes
-IG_Eragon_Egg,24215,40,1,1,1,0,0	//Advanced Shadow Shield
-IG_Eragon_Egg,18647,50,1,1,1,0,0	//Star Eyepatch
-IG_Eragon_Egg,5186,50,1,1,1,0,0	//Geographer Band
+IG_Eragon_Egg,18962,150,1,1,1,0,0	//Panda Balloon
+IG_Eragon_Egg,2168,150,1,1,1,0,0	//Immune Shield
+IG_Eragon_Egg,19934,150,1,1,1,0,0	//Alive Ten Gallon
+IG_Eragon_Egg,20195,50,1,1,1,0,0	//Costume Scratching Cat
+IG_Eragon_Egg,18893,150,1,1,1,0,0	//Dragon Claw Helm
+IG_Eragon_Egg,5255,100,1,1,1,0,0	//Triple Poring Hat
+IG_Eragon_Egg,5567,100,1,1,1,0,0	//Sinulog Hat
+IG_Eragon_Egg,18510,100,1,1,1,0,0	//Bloody Angel Hair Band
+IG_Eragon_Egg,24075,150,1,1,1,0,0	//Large Shadow Weapon
+IG_Eragon_Egg,24072,150,1,1,1,0,0	//Large Shadow Armor
+IG_Eragon_Egg,24214,150,1,1,1,0,0	//Advanced Shadow Shoes
+IG_Eragon_Egg,24215,150,1,1,1,0,0	//Advanced Shadow Shield
+IG_Eragon_Egg,18647,150,1,1,1,0,0	//Star Eyepatch
+IG_Eragon_Egg,5186,150,1,1,1,0,0	//Geographer Band
 IG_Eragon_Egg,12794,1000,1,1,0,0,0	//Combat Pill
 IG_Eragon_Egg,12350,1000,5,1,0,0,0	//Angeling Potion
 IG_Eragon_Egg,12419,1000,5,1,0,0,0	//Mana Plus
@@ -4711,7 +4711,7 @@ IG_Eragon_Egg,12999,1000,1,1,0,0,0	//Dead Branch Box
 
 
 //Mad Bunny Scroll
-IG_Mad_Bunny_Scroll,28901,30,1,1,1,0,0	//MadBunnySpecial
+IG_Mad_Bunny_Scroll,28901,100,1,1,1,0,0	//MadBunnySpecial
 IG_Mad_Bunny_Scroll,6234,10,1,1,1,0,0	//7Armor
 IG_Mad_Bunny_Scroll,6230,10,1,1,1,0,0	//7Weapon
 IG_Mad_Bunny_Scroll,6235,10,1,1,1,0,0	//7Headgear
@@ -4728,16 +4728,16 @@ IG_Mad_Bunny_Scroll,22707,1000,1,1,0,0,0	//LukSoul
 
 
 //OCP_23
-IG_OCP_23,19163,30,1,1,1,0,0	//CVB
-IG_OCP_23,5975,50,1,1,0,0,0	//Zealotus Doll
-IG_OCP_23,18959,50,1,1,0,0,0	//Pink Poo
-IG_OCP_23,5967,10,1,1,1,0,0	//Flying Galapago
-IG_OCP_23,19095,50,1,1,0,0,0	//Happy Balloon
-IG_OCP_23,15384,5,1,1,1,0,0	//Ritual Robes
-IG_OCP_23,22017,70,1,1,0,0,0	//Fishermans Shoes
-IG_OCP_23,32222,5,1,1,1,0,0	//Brooch of hero
-IG_OCP_23,28560,20,1,1,1,0,0	//Ying Yang Talisman
-IG_OCP_23,2984,70,1,1,0,0,0	//Saehrimnir Gloves
+IG_OCP_23,19163,100,1,1,1,0,0	//CVB
+IG_OCP_23,5975,150,1,1,0,0,0	//Zealotus Doll
+IG_OCP_23,18959,150,1,1,0,0,0	//Pink Poo
+IG_OCP_23,5967,30,1,1,1,0,0	//Flying Galapago
+IG_OCP_23,19095,150,1,1,0,0,0	//Happy Balloon
+IG_OCP_23,15384,15,1,1,1,0,0	//Ritual Robes
+IG_OCP_23,22017,200,1,1,0,0,0	//Fishermans Shoes
+IG_OCP_23,32222,15,1,1,1,0,0	//Brooch of hero
+IG_OCP_23,28560,50,1,1,1,0,0	//Ying Yang Talisman
+IG_OCP_23,2984,200,1,1,0,0,0	//Saehrimnir Gloves
 IG_OCP_23,14545,1000,6,1,0,0,0	//BMX3
 IG_OCP_23,12103,1000,5,1,0,0,0	//BB
 IG_OCP_23,6635,1000,8,1,0,0,0	//BSB
@@ -4748,15 +4748,63 @@ IG_OCP_23,6635,1000,8,1,0,0,0	//BSB
 
 
 //IG_Eternal_Winter_Scroll
-IG_Eternal_Winter_Scroll,13460,50,1,1,0,0,0	// Sealed Magic Sword
-IG_Eternal_Winter_Scroll,13461,50,1,1,0,0,0	// Sealed Evil Sword
-IG_Eternal_Winter_Scroll,13462,50,1,1,0,0,0	// Sealed Maximum Sword
-IG_Eternal_Winter_Scroll,28913,20,1,1,0,0,0	// Ultralight Magic Shield
-IG_Eternal_Winter_Scroll,22134,10,1,1,1,0,0	//Enforcer Shoes
-IG_Eternal_Winter_Scroll,2589,30,1,1,1,0,0	// FAW
-IG_Eternal_Winter_Scroll,2576,20,1,1,1,0,0	// Heroic
+IG_Eternal_Winter_Scroll,13460,150,1,1,0,0,0	// Sealed Magic Sword
+IG_Eternal_Winter_Scroll,13461,150,1,1,0,0,0	// Sealed Evil Sword
+IG_Eternal_Winter_Scroll,13462,150,1,1,0,0,0	// Sealed Maximum Sword
+IG_Eternal_Winter_Scroll,28913,60,1,1,0,0,0	// Ultralight Magic Shield
+IG_Eternal_Winter_Scroll,22134,30,1,1,1,0,0	//Enforcer Shoes
+IG_Eternal_Winter_Scroll,2589,100,1,1,1,0,0	// FAW
+IG_Eternal_Winter_Scroll,2576,100,1,1,1,0,0	// Heroic
 IG_Eternal_Winter_Scroll,14545,1000,5,1,0,0,0	// BMX3
 IG_Eternal_Winter_Scroll,12103,1000,5,1,0,0,0	// BB
 IG_Eternal_Winter_Scroll,12412,1000,8,1,0,0,0	// HE_GUM
 IG_Eternal_Winter_Scroll,6635,1000,6,1,0,0,0	// BSB
+
+
+
+
+
+//OCP 1
+IG_OCP_1,19102,500,1,1,0,0,0	//Pale Moon Hat
+IG_OCP_1,19114,500,1,1,0,0,0	//Sting SIlk Ribbon
+IG_OCP_1,18543,200,1,1,0,0,0	//Witch hat
+IG_OCP_1,18877,200,1,1,0,0,0	//Baron's Evil Eye
+IG_OCP_1,19083,100,1,1,0,0,0	//Mask of Hero
+IG_OCP_1,18799,200,1,1,0,0,0	//Nero Mask
+IG_OCP_1,18746,200,1,1,0,0,0	//Chilly Breath
+IG_OCP_1,18670,200,1,1,0,0,0	//Handkerchief in mouth
+IG_OCP_1,18616,200,1,1,0,0,0	//Long Tongue
+IG_OCP_1,18564,20,1,1,0,0,0	//Love piece
+IG_OCP_1,5978,20,1,1,1,0,0	//toy syringe
+IG_OCP_1,15072,400,1,1,0,0,0	//Nectar suit
+IG_OCP_1,1746,500,1,1,0,0,0	//Elven Bow
+IG_OCP_1,1837,500,1,1,0,0,0	//Iron Nail
+IG_OCP_1,13088,500,1,1,0,0,0	//Krishnagar
+IG_OCP_1,13412,20,1,1,1,0,0	//RTE Blue
+IG_OCP_1,13413,20,1,1,1,0,0	//RTE Red
+IG_OCP_1,28910,50,1,1,0,0,0	//Imuke Upper Shield
+IG_OCP_1,20799,50,1,1,0,0,0	//Elemental Towel
+IG_OCP_1,22052,200,1,1,0,0,0	//Graveskeeper Shoes
+IG_OCP_1,28386,200,1,1,0,0,0	//Fallen Monk
+IG_OCP_1,28394,10,1,1,1,0,0	//Spirit King's Ring
+IG_OCP_1,23251,200,1,1,0,0,0	//rose bundle
+IG_OCP_1,23252,200,1,1,0,0,0	//orleans bundle
+IG_OCP_1,23253,200,1,1,0,0,0	//shiba bundle
+IG_OCP_1,23254,200,1,1,0,0,0	//valkyrie bundle
+IG_OCP_1,23255,200,1,1,0,0,0	//kardui bundle
+IG_OCP_1,12411,1000,8,1,0,0,0	//8x HE BM
+IG_OCP_1,12412,1000,8,1,0,0,0	//8x HE Bubble Gum
+IG_OCP_1,14592,1000,8,1,0,0,0	//8x Job Manual
+IG_OCP_1,6291,1000,30,1,0,0,0	//30x Enriched Elu
+IG_OCP_1,6292,1000,30,1,0,0,0	//30x Enriched Ori
+
+
+
+
+
+
+
+
+
+
 
