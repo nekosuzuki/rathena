@@ -86,7 +86,7 @@ dali,56,126,4	script	Dispatched Sapha	4_MAN_BENKUNI,{
 	close;
 }
 
-dali,109,94,4	shop	Sundries Merchant	4_M_MERCAT2,611:-1,1750:-1,1065:-1
+dali,109,94,4	shop	Sundries Merchant	4_M_MERCAT2,611:-1,501:-1,502:-1,503:-1,506:-1,504:-1,645:-1,656:-1,657:-1,601:-1,602:-1,1065:-1,717:-1
 
 dali,112,95,4	script	Logistics Manager	4_M_MERCAT2,{
 	mes "[Logistics Manager]";
