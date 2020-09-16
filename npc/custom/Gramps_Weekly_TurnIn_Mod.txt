@@ -104,11 +104,11 @@ moc_para01,29,35,3	script	Gramps#Eden	866,{
 					mes "Tell me to warp you and I will send you to the special hunting grounds.";
 					mes "You are already on this mission.";
 				}
-			} else if (checkquest(.@Timer,PLAYTIME) == 1){
+			} else if (checkquest(.@Timer,PLAYTIME) == 0){
 				mes "[Gramps]";
 				mes "Wait a second!";
 				mes "You have to wait 23 hours before I can let you do this mission again.";
-			} else if ((checkquest(.@Timer1,PLAYTIME) == 1 || checkquest(.@Timer2,PLAYTIME) == 1) && !.@vip_status){
+			} else if ((checkquest(.@Timer1,PLAYTIME) == 0  || checkquest(.@Timer2,PLAYTIME) == 0) && !.@vip_status){
 				mes "[Gramps]";
 				mes "I'm sorry but I can only give you one mission at a time in this category.";
 				mes "If you had a VIP membership, I can give you both missions and a free warp to the area.";
@@ -156,10 +156,6 @@ moc_para01,29,35,3	script	Gramps#Eden	866,{
 					erasequest .quest_id[.@i];
 					.@BaseExp = getmonsterinfo(.monster_id[.@i], MOB_BASEEXP) * .@boost;
 					.@JobExp = getmonsterinfo(.monster_id[.@i], MOB_JOBEXP) * .@boost;
-					if (eaclass()&EAJL_THIRD && BaseLevel > 149)
-						.@BaseExp = 0;
-					if (eaclass()&EAJL_THIRD && JobLevel > 49)
-						.@JobExp = 0;
 					switch(.@vip_reward){
 						case 2:
 							getexp .@BaseExp,0;
@@ -220,7 +216,7 @@ moc_para01,29,35,3	script	Gramps#Eden	866,{
 			setarray .@Timer2, 60495, 60450, 60487, 90002;
 			.@Timer1 = .@Timer1[.@map];
 			.@Timer2 = .@Timer2[.@map];
-			if (checkquest(.@Turn_1) < 0 && checkquest(.@Timer1) < 0 && checkquest(.@Turn_2) < 0 && checkquest(.@Timer2) < 0){
+			if (checkquest(.@Turn_1) < 0  && checkquest(.@Turn_2) < 0){
 				mes "[Gramps]";
 				mes "I won't send you there because you're either not doing that mission or you haven't recently done this mission.";
 				close;
@@ -241,7 +237,7 @@ moc_para01,29,35,3	script	Gramps#Eden	866,{
 					mes "Come now, I won't do this for free.";
 					mes "You can get the Reset Stones from the Kafra Consumables Employee upstairs.";
 				} else {
-					if (checkquest(60574,PLAYTIME) == 1){
+					if (checkquest(60574,PLAYTIME) == 0){
 						mes "[Gramps]";
 						mes "I can only let you reset your hunting timers once every 3 hours.";
 						mes "Wait for the timer to expire before you try reseting.";
