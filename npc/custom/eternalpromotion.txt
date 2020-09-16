@@ -13,9 +13,10 @@ moc_para01,21,167,3	script	Terra	856,{
 			mes "Please choose from the current offer";
 			next;
 			
-			switch(select("Heroic Backpack", "Eternal Winter Scroll", "Cancel")){
+			switch(select("Heroic Backpack", "Eternal Winter Scroll",  "Costume Angel Ribbon Wing","Cancel")){
 		
 				case 1:	//"Heroic Backpack"
+					mes "This will cost you 3000 Bonus Cash";
 					mes "Please confirm this exchange";
 					next;
 
@@ -37,6 +38,7 @@ moc_para01,21,167,3	script	Terra	856,{
 					}
 
 				case 2:	//"Eternal Winter Scroll"
+					mes "This will cost you 2000 Bonus Cash";
 					mes "Please confirm this exchange";
 					next;
 
@@ -56,7 +58,28 @@ moc_para01,21,167,3	script	Terra	856,{
 							mes "Okay, that's all good fam!";
 							close;		
 					}
-				case 3:	//"Cancel"
+				case 3:	//"Costume Angel Ribbon Wing"
+					mes "This will cost you 50000 Bonus Cash";
+					mes "Please confirm this exchange";
+					next;
+
+					switch(select("Confirm", "Cancle")){
+						case 1: //"Confirm"
+							if(#CASHBONUS < 50000){
+								mes "Sadly, I need 50000 Cash Bonus to prove loyalty";
+								end;	
+							} else{
+								mes "You got it! Thank you for being such a cool folk!";
+								set #CASHBONUS,(#CASHBONUS - 50000);	
+								getitem 40001,1;
+								dispbottom "[Refill Center System] You have bonus cash in total of " + #CASHBONUS + " Cash";
+								close;
+							}
+						case 2: //"Cancel"
+							mes "Okay, that's all good fam!";
+							close;		
+					}
+				case 4:	//"Cancel"
 						mes "Okay, that's all good fam!";
 						close;												
 

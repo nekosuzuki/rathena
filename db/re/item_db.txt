@@ -13942,7 +13942,8 @@
 21119,C_Rabbit_Family_Balloon,Costume Rabbit Family Balloon,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,0,1809,{},{},{}
 21120,C_Hat_of_Bundle,Costume Hat of Bundle,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,108,{},{},{}
 21121,C_Aviator_Hat,Costume Aviator Hat,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,0,972,{},{},{}
-
+40001,C_AngelRibbonWing,Costume Angel Ribbon Wing,4,0,,0,,,,0,0xFFFFFFFF,63,2,8192,,1,0,42,{ },{},{ }
+40002,C_GoldButterfly_Wing,Costume Gold Butterfly Wing,4,0,,0,,,,0,0xFFFFFFFF,63,2,8192,,1,0,36,{ },{},{ }
 
 
 
