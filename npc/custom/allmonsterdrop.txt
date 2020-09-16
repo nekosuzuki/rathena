@@ -2,11 +2,17 @@
 
 OnNPCKillEvent:
 
-	if ( rand( 3000 ) <= 1 ) {
-	.@item_id = F_Rand( 30001 );
-	getitem .@item_id,50;
+	if(vip_status(1)){
+		if ( rand( 100 ) <= 1 ) {
+		.@item_id = F_Rand( 30001 );
+		getitem .@item_id,2;
+		}
+	} else{
+		if ( rand( 100 ) <= 1 ) {
+		.@item_id = F_Rand( 30001 );
+		getitem .@item_id,1;
+		}
 	}
-
 	end;
 
 }
