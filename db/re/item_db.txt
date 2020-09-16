@@ -13866,6 +13866,7 @@
 
 //Cash Coin
 30001,Cash,Cash,0,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{.@i = 30001; dispbottom "[System] : You received "+ callfunc("F_InsertComma",(countitem(.@i)+1)) +" Cash Points"; #CASHPOINTS += (countitem(.@i) + 1); delitem .@i,countitem(.@i); dispbottom  "[System] : You have "+ callfunc("F_InsertComma",#CASHPOINTS) +" Cash Points"; },{},{}
+30002,Cash Bonus,Cash Bonus,0,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{.@i = 30001; dispbottom "[System] : You received "+ callfunc("F_InsertComma",(countitem(.@i)+5000)) +" Cash Bonus"; #CASHBONUS += (countitem(.@i) + 5000); delitem .@i,countitem(.@i); dispbottom  "[System] : You have "+ callfunc("F_InsertComma",#CASHBONUS) +" Cash Bonus"; },{},{}
 
 
 
