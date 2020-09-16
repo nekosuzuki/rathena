@@ -1,0 +1,77 @@
+moc_para01,21,167,3	script	Terra	856,{
+
+	mes "[Terra]";
+	mes "Since you are such a loyal customer,";
+	mes "I have a gift for you.";
+	mes "You can exchange your Cash Bonus with a rare item!";
+	mes "So, would you like to exchange?";
+	next;
+
+	switch(select("Definitely, I do!!", "Probably next time.")){
+
+		case 1: 	//"Definitely, I do!!"
+			mes "Please choose from the current offer";
+			next;
+			
+			switch(select("Heroic Backpack", "Eternal Winter Scroll", "Cancel")){
+		
+				case 1:	//"Heroic Backpack"
+					mes "Please confirm this exchange";
+					next;
+
+					switch(select("Confirm", "Cancel")){
+						case 1: //"Confirm"
+							if(#CASHBONUS < 3000){
+								mes "Sadly, I need 3000 Cash Bonus to prove loyalty";
+								end;	
+							} else{
+								mes "You got it! Thank you for being such a cool folk!";
+								set #CASHBONUS,(#CASHBONUS - 3000);	
+								getitem 2576,1;
+								dispbottom "[Refill Center System] You have bonus cash in total of " + #CASHBONUS + " Cash";
+								close;
+							}
+						case 2: //"Cancel"
+							mes "Okay, that's all good fam!";
+							close;	
+					}
+
+				case 2:	//"Eternal Winter Scroll"
+					mes "Please confirm this exchange";
+					next;
+
+					switch(select("Confirm", "Cancle")){
+						case 1: //"Confirm"
+							if(#CASHBONUS < 2000){
+								mes "Sadly, I need 2000 Cash Bonus to prove loyalty";
+								end;	
+							} else{
+								mes "You got it! Thank you for being such a cool folk!";
+								set #CASHBONUS,(#CASHBONUS - 2000);	
+								getitem 43254,1;
+								dispbottom "[Refill Center System] You have bonus cash in total of " + #CASHBONUS + " Cash";
+								close;
+							}
+						case 2: //"Cancel"
+							mes "Okay, that's all good fam!";
+							close;		
+					}
+				case 3:	//"Cancel"
+						mes "Okay, that's all good fam!";
+						close;												
+
+			}
+
+		case 2:	//"Probably next time."
+			mes "Okay, no worries at all.";
+			close;
+	}
+	end;
+
+
+}
+
+
+
+
+
