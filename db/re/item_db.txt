@@ -8734,7 +8734,7 @@
 14753,Hero_Midgard_Egg,Hero Midgard Egg,18,0,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ getgroupitem(IG_Hero_Midgard_Egg); },{},{}
 14758,Safe_To_Smelting_Scroll,Safe To Smelting Scroll,18,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ getitem callfunc("F_Rand",6238,6239,6228,6232,24216,17474,969),1; },{},{}
 14765,Limited_Edition_JOB_Battle_Manual,Limited Edition JOB Battle Manual,18,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ sc_start SC_JEXPBOOST,3600000,35; },{},{}
-14766,Limited_Power_Booster,Limited Power Booster,18,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ bonus_script "{ bonus bBaseAtk,30; bonus bMatk,30; bonus2 bAddClass,Class_All,1; bonus bMatkRate,1; bonus bHit,30; bonus bFlee,30; bonus bAspd,1; bonus bUseSPrate,-5; bonus bFixedCastrate,-30; }",1800,1,1; },{},{}
+14766,Limited_Power_Booster,Limited Power Booster,2,10,,10,,,,0,0xFFFFFFFF,63,2,,,,,,{ bonus_script "{ bonus bBaseAtk,30; bonus bMatk,30; bonus2 bAddClass,Class_All,1; bonus bMatkRate,1; bonus bHit,30; bonus bFlee,30; bonus bAspd,1; bonus bUseSPrate,-5; bonus bFixedCastrate,-30; }",1800,1,1; specialeffect2 EF_POTION_BERSERK; showscript "Oh FURKKKKKKKKK!! My POWERRR!! IM PROWLERRRRRRRR"; },{},{}
 14805,July_Lucky_Scroll,Almighty Lucky Egg,18,0,,10,,,,,0xFFFFFFFF,63,2,,,,,,{ getgroupitem(IG_July_Lucky_Scroll); },{},{}
 //===================================================================
 // More Armors
@@ -13888,6 +13888,7 @@
 22971,Mad_Bunny_Scroll, Mad Bunny Scroll,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Mad_Bunny_Scroll); },{},{}
 23987,OCP_XXIII, OCP XXIII,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_OCP_23); },{},{}
 17768,OCP_I, OCP I,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_OCP_1); },{},{}
+43256,Earth_Dinosaur_Egg, Earth Dinosaur Egg,2,10,,0,,,,0,0xFFFFFFFF,63,2,,,1,,,{ getgroupitem(IG_Earth_Dinosaur_Egg); },{},{}
 
 
 
@@ -13925,13 +13926,14 @@
 18799,Nero_Mask,Nero Mask,4,0,0,20,,,,0,0xFFFFFFFF,63,2,512,,10,,917,{ bonus2 bMagicAtkEle,Ele_Water,4; },{},{}
 22052,Gravekeeper_Shoes,Gravekeeper Shoes,4,0,,400,,10,,1,0xFFFFFFFE,63,2,64,,0,1,0,{ .@r=getrefine(); bonus2 bExpAddRace,RC_Undead,5; bonus2 bExpAddRace,RC_Undead,1*.@r; },{},{}
 28394,Spirit_Kings_Ring,Spirit King's Ring,4,0,,20,,0,,1,0xFFFFFFFF,63,2,136,,50,0,0,{ bonus bVit,5; bonus2 bSkillVariableCast,"SO_VARETYR_SPEAR",-1500; bonus2 bVariableCastrate,"SO_WARMER",-50; bonus bDelayrate,-5; bonus2 bSkillCooldown,"SO_DIAMONDDUST",-2000; bonus2 bSkillCooldown,"SO_EARTHGRAVE",-2000; bonus2 bSkillCooldown,"SO_VARETYR_SPEAR",-500; bonus2 bSkillCooldown,"SO_WARMER",-15000; bonus2 bSkillAtk,"SO_DIAMONDDUST",1*(Baselevel/8); bonus2 bSkillAtk,"SO_EARTHGRAVE",1*(Baselevel/8); },{},{}
-
+5898,Autumn_Headband,Autumn Headband,4,0,,20,,10,,0,0x00000800,24,2,256,,100,1,1119,{ .@s = (readparam(bDex))/5; bonus bAtk,2*.@s; bonus2 bVariableCastrate,"RA_ARROWSTORM",-100; bonus2 bSPDrainRate,40,1; .@r = getrefine(); if(.@r>=9) { bonus2 bSkillAtk,"RA_ARROWSTORM",(BaseLevel/5); } },{},{}
 
 
 //GGT Imports
 18962,Panda_Balloon,Panda Balloon,4,0,,0,,,,0,0xFFFFFFFF,63,2,1,,1,0,1115,{bonus bAspd,1;    },{},{}
-
-
+20804,Greed_Amistr_Bag,Greed Amistr Bag,4,10,,500,,18,,0,0xFFFFFFFF,63,2,4,,1,,4,{ bonus bAllStats,1; skill "BS_GREED",1; .@r = getrefine(); bonus2 bExpAddRace,RC_All,.@r*1; bonus2 bDropAddRace,RC_All,.@r*1; if(.@r>=9) { bonus bSPDrainValue,3; } if(.@r>=12) { bonus bNoCastCancel; } },{},{}
+18922,Machi_Bear_Cap,Machi Bear Cap,4,,,50,,7,,0,0xFFFFFFFF,63,2,256,,1,1,966,{ bonus bAllStats,2; bonus2 bAddRace,RC_DemiHuman,10; bonus2 bAddRace,RC_Fish,10; .@r = getrefine(); if(.@r>=9) { bonus bMaxHPrate,(1*.@r)-8; } },{},{}
+19046,Deadly_Poison_Manteau,Deadly Poison Manteau,4,0,,50,,4,,0,0xFFFFFFFF,18,2,4,,70,1,0,{ bonus bMaxHPrate,5; bonus bMatkRate,1; bonus2 bAddEle,Ele_Poison,2; bonus2 bMagicAddEle,Ele_Poison,2; },{},{}
 
 
 
