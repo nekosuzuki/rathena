@@ -1,0 +1,22 @@
+moc_para01,34,38,4	script	Hell Gate Keeper	802,{
+
+
+	if( select("PVP Room [ "+getmapusers("pvp_n_8-5")+"/50 ]:Cancel") == 1 ) {
+		if( getmapusers("pvp_n_8-5") < 50 ) warp "pvp_n_8-5",0,0;
+	}
+	close;
+
+
+
+OnPCDieEvent:
+	if(strcharinfo(3) == "pvp_n_8-5") {
+		dispbottom "You will respawn in 3 Seconds.";
+		sleep2 3000;
+		atcommand "@alive";
+		atcommand "@heal";
+		warp "pvp_n_8-5",0,0;
+	}
+	end;
+}
+
+

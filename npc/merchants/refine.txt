@@ -534,7 +534,7 @@ payon,144,173,5	script	Antonio	88,{
 	callfunc "refinemain","Antonio",0;
 	end;
 }
-moc_para01,26,185,5	script	Antonio	88,{
+moc_para01,26,185,5	script	Papa	88,{
 	callfunc "refinemain","Antonio",0;
 	end;
 }
@@ -1144,7 +1144,7 @@ sch_gld,340,80,7	script	Repairman#sch_gld	86,{
 	end;
 }
 
-auction_03,166,49,4	script	Repairman#sch_gld	86,{
+auction_03,166,49,4	script	Repairman#auction_03	86,{
 	callfunc "repairmain","Repairman";
 	end;
 }

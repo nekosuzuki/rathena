@@ -15,7 +15,7 @@
 //= 1.1 Implemented the 'mergeitem' script command. [Cydh]
 //============================================================
 
-moc_para01,41,166,3	script	Mergician#pron	749,{
+moc_para01,41,166,3	script	Mergician#eden	749,{
 	if (checkweight(1301,1) == 0) {
 		mes "- Wait a second !! -";
 		mes "- You are carrying too many items -";
