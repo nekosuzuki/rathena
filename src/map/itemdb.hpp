@@ -750,6 +750,7 @@ enum e_random_item_group {
 	IG_Mad_Bunny_Scroll,
 	IG_OCP_23,
 	IG_OCP_1,
+	IG_Earth_Dinosaur_Egg,
 };
 
 /// Enum for bound/sell restricted selling

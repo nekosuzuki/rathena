@@ -5133,6 +5133,7 @@
 	export_constant(IG_Mad_Bunny_Scroll);
 	export_constant(IG_OCP_23);
 	export_constant(IG_OCP_1);
+	export_constant(IG_Earth_Dinosaur_Egg);
 
 	/* unit stop walking */
 	export_constant(USW_NONE);
