@@ -1,0 +1,15 @@
+-	script	PVP_Cash	-1,{
+OnPCKillEvent:
+	if ( inarray(.map$, strcharinfo(3)) != -1 ) {
+		if ( rand(100) <= .chance && killedrid != getcharid(3) ) {
+			getitem 30001, 1;
+			//#CASHPOINTS += 1; // I forgot to add this
+			//dispbottom "You earned 1 Cash Point from killing. Total : "+ #CASHPOINTS;
+		}
+	}
+	end;
+
+OnInit:
+	.chance = 100; // chance to get something
+	setarray .map$, "pvp_n_8-5"; // map list
+}
