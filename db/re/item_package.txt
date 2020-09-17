@@ -4804,14 +4804,14 @@ IG_OCP_1,6292,1000,30,1,0,0,0	//30x Enriched Ori
 
 
 //Earth Dragon Egg
-IG_Earth_Dinosaur_Egg,5898,1000,1,1,1,0,0	//Autumn Headband
-IG_Earth_Dinosaur_Egg,20804,2000,1,1,1,0,0	//Greed Amistr Bag
-IG_Earth_Dinosaur_Egg,18856,2000,1,1,1,0,0	//W King Tiger Doll Hat
-IG_Earth_Dinosaur_Egg,5780,4000,1,1,0,0,0	//Tendrilion Hat
-IG_Earth_Dinosaur_Egg,18922,4000,1,1,0,0,0	//Machi Bear Hat
-IG_Earth_Dinosaur_Egg,18806,4000,1,1,0,0,0	//Black Rabbit Hat
+IG_Earth_Dinosaur_Egg,5898,200,1,1,1,0,0	//Autumn Headband
+IG_Earth_Dinosaur_Egg,20804,500,1,1,1,0,0	//Greed Amistr Bag
+IG_Earth_Dinosaur_Egg,18856,500,1,1,1,0,0	//W King Tiger Doll Hat
+IG_Earth_Dinosaur_Egg,5780,2000,1,1,0,0,0	//Tendrilion Hat
+IG_Earth_Dinosaur_Egg,18922,2000,1,1,0,0,0	//Machi Bear Hat
+IG_Earth_Dinosaur_Egg,18806,2000,1,1,0,0,0	//Black Rabbit Hat
 IG_Earth_Dinosaur_Egg,2855,2000,1,1,1,0,0	//Whike Black Tail
-IG_Earth_Dinosaur_Egg,19046,4000,1,1,0,0,0	//Deadly Poison Manteau
+IG_Earth_Dinosaur_Egg,19046,2000,1,1,0,0,0	//Deadly Poison Manteau
 IG_Earth_Dinosaur_Egg,22829,1,1,1,1,0,0	//Sealed Card Album
 IG_Earth_Dinosaur_Egg,13996,3000,1,1,0,0,0	//Big Bun 100 Box
 IG_Earth_Dinosaur_Egg,17251,1000,1,1,0,0,0	//Unlimited Fly Wing
