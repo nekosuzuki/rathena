@@ -10858,12 +10858,12 @@ Body:
         Count: 400
   - Id: 62837
     Title: Gramps GM Notice
-  - Id: 62900
+  - Id: 90003
     Title: Wanderer Trentini Hunting
     Targets:
       - Mob: V_B_TRENTINI
         Count: 400
-  - Id: 62901
+  - Id: 90004
     Title: Sorcerer Celia Hunting
     Targets:
       - Mob: V_B_CELIA
@@ -10874,6 +10874,11 @@ Body:
   - Id: 90002
     Title: Hunting Timer 8
     TimeLimit: +23h
+  - Id: 90005
+    Title: GC109 Hunting
+    Targets:
+      - Mob: GC109
+        Count: 400
 
 
 
